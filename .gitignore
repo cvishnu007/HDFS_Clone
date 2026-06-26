@@ -1,0 +1,5 @@
+data_blocks/
+*.json
+hdfsclone/
+venv/
+logs/
