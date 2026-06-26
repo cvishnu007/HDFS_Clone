@@ -1,0 +1,101 @@
+{
+  "files": {
+    "Oversampling Documentation.pdf": {
+      "chunks": [
+        {
+          "chunk_name": "Oversampling Documentation.pdf_part0",
+          "replicas": [
+            "datanode1",
+            "datanode2"
+          ],
+          "checksum": "a2d692701e3c28add32a6680f27740beb24b7e0f6f52514add21728fe5afa7df"
+        }
+      ],
+      "file_checksum": "a2d692701e3c28add32a6680f27740beb24b7e0f6f52514add21728fe5afa7df",
+      "size_bytes": 252975,
+      "uploaded_at": "2026-06-26 11:21:56"
+    },
+    "smote.ipynb": {
+      "chunks": [
+        {
+          "chunk_name": "smote.ipynb_part0",
+          "replicas": [
+            "datanode1",
+            "datanode2"
+          ],
+          "checksum": "612a79d7460f0feb39f56b5ec481be83444a159089e261b9e9a614016fe3825b"
+        }
+      ],
+      "file_checksum": "612a79d7460f0feb39f56b5ec481be83444a159089e261b9e9a614016fe3825b",
+      "size_bytes": 977383,
+      "uploaded_at": "2026-06-26 11:26:36"
+    },
+    "DA_U1.pdf": {
+      "chunks": [
+        {
+          "chunk_name": "DA_U1.pdf_part0",
+          "replicas": [
+            "datanode1",
+            "datanode2"
+          ],
+          "checksum": "83e83e45ea441b62593dabea23769906912c447f7196214b6f93276481ddcffd"
+        },
+        {
+          "chunk_name": "DA_U1.pdf_part1",
+          "replicas": [
+            "datanode1",
+            "datanode2"
+          ],
+          "checksum": "e0b0442cadef2a179eeff644c0a2db74ab9086920090ef6ff006f2cf22aa183c"
+        },
+        {
+          "chunk_name": "DA_U1.pdf_part2",
+          "replicas": [
+            "datanode1",
+            "datanode2"
+          ],
+          "checksum": "0db2cc05aa7ce2f55aee1bf86e55127e8c6279d05c47bf45f0c9073f55428ff7"
+        },
+        {
+          "chunk_name": "DA_U1.pdf_part3",
+          "replicas": [
+            "datanode1",
+            "datanode2"
+          ],
+          "checksum": "4217e5e6187151bffeb18f577011ce8114e3fcddc09236d9cd86cb7d22770bb2"
+        },
+        {
+          "chunk_name": "DA_U1.pdf_part4",
+          "replicas": [
+            "datanode1",
+            "datanode2"
+          ],
+          "checksum": "4c9661e661c2bb259a73694cb7f606815e93ddbf33aec7baf98b8c0366731975"
+        },
+        {
+          "chunk_name": "DA_U1.pdf_part5",
+          "replicas": [
+            "datanode1",
+            "datanode2"
+          ],
+          "checksum": "1de8e1984389da2bc36ec1453d0f32e88bcde88ac5214e47714ec4cb4ebc03cf"
+        },
+        {
+          "chunk_name": "DA_U1.pdf_part6",
+          "replicas": [
+            "datanode1",
+            "datanode2"
+          ],
+          "checksum": "af92e036fdcaff0f437a3bf86f7da6bb5c24c1fef7a1a38de8c5e0da6757e03c"
+        }
+      ],
+      "file_checksum": "d60528085b5ad9a8971dabe4b17a69d78df1fc00d31f213e6fdf13109baa6f60",
+      "size_bytes": 12582990,
+      "uploaded_at": "2026-06-26 11:33:11"
+    }
+  },
+  "datanode_status": {
+    "datanode1": 1782474120.3434527,
+    "datanode3": 1782474119.064844
+  }
+}

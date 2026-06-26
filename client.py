@@ -8,12 +8,22 @@ import streamlit as st
 from datetime import datetime
 import hashlib
 import time
-
+import base64
+import os
 # ---------- CONFIG ----------
-NAMENODE = ("172.22.194.120", 5000)
+NAMENODE = (
+    os.environ.get("NAMENODE_HOST", "127.0.0.1"),
+    int(os.environ.get("NAMENODE_PORT", "5000"))
+)
 DATANODES = {
-    "datanode1": ("172.22.192.208", 5001),
-    "datanode2": ("172.22.194.94", 5002),
+    k: (v.split(":")[0], int(v.split(":")[1]))
+    for k, v in (
+        item.split("=")
+        for item in os.environ.get(
+            "DATANODES",
+            "datanode1=127.0.0.1:5001,datanode2=127.0.0.1:5002"
+        ).split(",")
+    )
 }
 MAX_UPLOAD_BYTES = 50 * 1024 * 1024
 
@@ -134,7 +144,7 @@ def read_chunk_from(node_key: str, chunk_name: str):
         
         if res.get("status") == "ok":
             debug(f"✅ Got {chunk_name} from {node_key}")
-            return res["content"].encode("latin-1", errors="ignore")
+            return base64.b64decode(res["content_b64"])
         
         debug(f"⚠ Read failed: {res}")
         return None
@@ -226,12 +236,17 @@ def download_file(filename: str):
     debug(f"✅ Downloaded {filename} ({len(out)} bytes)")
     return bytes(out), None
 
+def delete_file(filename: str):
+    return send_namenode({"action": "delete", "filename": filename})
 # ---------- STREAMLIT UI ----------
 st.set_page_config(page_title="Mini HDFS", page_icon="🗂", layout="wide")
 st.title("🗂 Mini HDFS Dashboard")
 
+def list_files():
+    return send_namenode({"action": "list"})
+
 # Create tabs
-tabs = st.tabs(["📊 Status", "⬆ Upload", "⬇ Download", "🐛 Debug Console"])
+tabs = st.tabs(["📊 Status", "📁 Files", "⬆ Upload", "⬇ Download", "🗑 Delete", "🐛 Debug Console"])
 
 # ---------- STATUS TAB ----------
 with tabs[0]:
@@ -289,8 +304,26 @@ with tabs[0]:
     else:
         st.error(f"❌ Could not fetch status: {status.get('msg', 'unknown error')}")
 
-# ---------- UPLOAD TAB ----------
 with tabs[1]:
+    st.subheader("All Files")
+
+    if st.button("🔄 Refresh"):
+        st.rerun()
+
+    res = list_files()
+    if res.get("status") == "ok":
+        files = res["files"]
+        if not files:
+            st.info("No files uploaded yet")
+        else:
+            for f in files:
+                size_kb = f["size_bytes"] / 1024
+                size_str = f"{size_kb:.1f} KB" if size_kb < 1024 else f"{size_kb/1024:.2f} MB"
+                st.write(f"📄 **{f['filename']}** — {size_str} — {f['chunks']} chunk(s) — uploaded {f['uploaded_at']}")
+    else:
+        st.error(f"❌ {res.get('msg', 'unknown error')}")
+# ---------- UPLOAD TAB ----------
+with tabs[2]:
     st.subheader("Upload File (≤ 50 MB)")
     
     up = st.file_uploader("Choose a file", key="uploader")
@@ -317,7 +350,7 @@ with tabs[1]:
                         st.error(f"❌ Upload failed: {res.get('msg', 'unknown error')}")
 
 # ---------- DOWNLOAD TAB ----------
-with tabs[2]:
+with tabs[3]:
     st.subheader("Download File")
     
     fname = st.text_input("Enter exact filename to download:")
@@ -359,8 +392,25 @@ with tabs[2]:
                         mime="application/octet-stream"
                     )
 
+with tabs[4]:
+    st.subheader("Delete File")
+    
+    del_fname = st.text_input("Enter exact filename to delete:")
+    
+    if st.button("🗑 Delete from HDFS"):
+        if not del_fname:
+            st.warning("⚠ Please enter a filename first")
+        else:
+            res = delete_file(del_fname)
+            if res.get("status") == "deleted":
+                st.success(f"✅ {del_fname} deleted from all nodes")
+            elif res.get("status") == "partial":
+                st.warning(f"⚠ {res.get('msg')}")
+            else:
+                st.error(f"❌ {res.get('msg', 'unknown error')}")
+
 # ---------- DEBUG CONSOLE TAB ----------
-with tabs[3]:
+with tabs[5]:
     st.subheader("Live Debug Console")
     st.caption("Real-time client logs for socket activity and operations")
     

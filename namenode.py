@@ -11,14 +11,22 @@ import hashlib
 import logging
 from logging.handlers import RotatingFileHandler
 from typing import Dict, Tuple, List
-
+import base64
 # ---------- CONFIG ----------
-NAMENODE_HOST = "172.22.194.120"
-NAMENODE_PORT = 5000
+
+REPLICATION_FACTOR = int(os.environ.get("REPLICATION_FACTOR", "2"))
+NAMENODE_HOST = os.environ.get("NAMENODE_HOST", "0.0.0.0")
+NAMENODE_PORT = int(os.environ.get("NAMENODE_PORT", "5000"))
 
 DATANODES: Dict[str, Tuple[str, int]] = {
-    "datanode1": ("172.22.192.208", 5001),
-    "datanode2": ("172.22.194.94", 5002),
+    k: (v.split(":")[0], int(v.split(":")[1]))
+    for k, v in (
+        item.split("=")
+        for item in os.environ.get(
+            "DATANODES",
+            "datanode1=127.0.0.1:5001,datanode2=127.0.0.1:5002"
+        ).split(",")
+    )
 }
 
 HEARTBEAT_UDP_PORT = 6000
@@ -128,6 +136,63 @@ def monitor_nodes():
                     changed = True
         if changed:
             save_metadata()
+def re_replicate():
+    while True:
+        time.sleep(HEARTBEAT_CHECK_EVERY)
+        with lock:
+            alive = list(metadata["datanode_status"].keys())
+            files_snapshot = {
+                fname: entry
+                for fname, entry in metadata["files"].items()
+            }
+
+        for fname, entry in files_snapshot.items():
+            for ch in entry["chunks"]:
+                chunk_name = ch["chunk_name"]
+                current_replicas = ch["replicas"]
+                alive_replicas = [n for n in current_replicas if n in alive and n in DATANODES]
+                dead_replicas = [n for n in current_replicas if n not in alive and n in DATANODES]
+
+                need = REPLICATION_FACTOR - len(alive_replicas)
+                if need <= 0:
+                    continue
+
+                # Find nodes that don't already have this chunk
+                candidates = [n for n in alive if n not in current_replicas and n in DATANODES]
+                if not candidates:
+                    log_console(f"⚠ No candidates to re-replicate {chunk_name}")
+                    continue
+
+                # Read chunk from a surviving replica
+                source = alive_replicas[0] if alive_replicas else None
+                if not source:
+                    log_console(f"⚠ No alive source for {chunk_name} — data lost")
+                    continue
+
+                res = read_chunk(source, chunk_name)
+                if res.get("status") != "ok":
+                    log_console(f"⚠ Could not read {chunk_name} from {source}")
+                    continue
+
+                content_b64 = res["content_b64"]
+
+                # Push to candidates up to `need` count
+                new_replicas = []
+                for target in candidates[:need]:
+                    if store_chunk(target, chunk_name, content_b64):
+                        new_replicas.append(target)
+                        log_console(f"♻ Re-replicated {chunk_name} → {target}")
+
+                if new_replicas:
+                    with lock:
+                        updated = [n for n in current_replicas if n in alive] + new_replicas
+                        metadata["files"][fname]["chunks"] = [
+                            {**c, "replicas": updated} if c["chunk_name"] == chunk_name else c
+                            for c in metadata["files"][fname]["chunks"]
+                        ]
+                    save_metadata()
+
+        time.sleep(HEARTBEAT_CHECK_EVERY)
 
 # ---------- DATANODE RPC ----------
 def store_chunk(node: str, chunk_name: str, content_str: str) -> bool:
@@ -148,7 +213,7 @@ def store_chunk(node: str, chunk_name: str, content_str: str) -> bool:
         s.settimeout(90)  # ✅ 90 seconds for large chunks
         s.connect((ip, port))
         
-        payload = {"action": "store", "filename": chunk_name, "content": content_str}
+        payload = {"action": "store", "filename": chunk_name, "content_b64": content_str}
         req_data = json.dumps(payload).encode()
         
         log_console(f"📤 Sending {len(req_data)//1024} KB to {node}")
@@ -184,24 +249,24 @@ def store_chunk(node: str, chunk_name: str, content_str: str) -> bool:
                 pass
 
 def read_chunk(node: str, chunk_name: str) -> dict:
-    """Read a chunk from a DataNode."""
     ip, port = DATANODES[node]
     try:
-        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        s.settimeout(5)
+        s = socket.socket()
+        s.settimeout(30)
         s.connect((ip, port))
-        payload = {"action": "read", "filename": chunk_name}
-        s.sendall(json.dumps(payload).encode())
-        data = recv_all(s, timeout=10)
+        s.sendall(json.dumps({"action": "read", "filename": chunk_name}).encode())
+        try:
+            s.shutdown(socket.SHUT_WR)
+        except:
+            pass
+        data = recv_all(s, timeout=30)
         s.close()
-        
         if data:
             return json.loads(data.decode())
         return {}
     except Exception as e:
         log_console(f"❌ Read from {node} failed: {e}")
         return {}
-
 # ---------- CLIENT HANDLERS ----------
 def handle_upload(filename: str, content_str: str = None, content_b64: str = None) -> dict:
     """Handle file upload with chunking and replication."""
@@ -238,14 +303,16 @@ def handle_upload(filename: str, content_str: str = None, content_b64: str = Non
 
         for i, part in enumerate(parts):
             chunk_name = f"{filename}_part{i}"
-            payload = part.decode("latin-1", errors="ignore")
+            payload = base64.b64encode(part).decode("ascii")
             chunk_hash = sha256_bytes(part)
             
             log_console(f"📤 Chunk {i+1}/{len(parts)}: {chunk_name} ({len(part)} bytes)")
 
             # Replicate to all available nodes
+            # Replicate to min(RF, alive_nodes) nodes
             replicas = []
-            for node in DATANODES.keys():
+            targets = alive[:REPLICATION_FACTOR]
+            for node in targets:
                 log_console(f"  → Storing on {node}...")
                 if store_chunk(node, chunk_name, payload):
                     replicas.append(node)
@@ -269,7 +336,9 @@ def handle_upload(filename: str, content_str: str = None, content_b64: str = Non
         with lock:
             metadata["files"][filename] = {
                 "chunks": chunks_meta,
-                "file_checksum": sha256_bytes(raw)
+                "file_checksum": sha256_bytes(raw),
+                "size_bytes": len(raw),
+                "uploaded_at": time.strftime("%Y-%m-%d %H:%M:%S")
             }
         save_metadata()
         
@@ -289,6 +358,59 @@ def handle_download(filename: str) -> dict:
         if not entry:
             return {"status": "error", "msg": "File not found"}
         return {"status": "ok", "chunks": entry["chunks"]}
+
+def handle_delete(filename: str) -> dict:
+    with lock:
+        entry = metadata["files"].get(filename)
+        if not entry:
+            return {"status": "error", "msg": "File not found"}
+        chunks = entry["chunks"]
+
+    # Delete from each replica node
+    failed = []
+    for ch in chunks:
+        for node in ch["replicas"]:
+            ip, port = DATANODES[node]
+            try:
+                s = socket.socket()
+                s.settimeout(10)
+                s.connect((ip, port))
+                s.sendall(json.dumps({"action": "delete", "filename": ch["chunk_name"]}).encode())
+                try:
+                    s.shutdown(socket.SHUT_WR)
+                except:
+                    pass
+                data = recv_all(s, timeout=10)
+                s.close()
+                if data:
+                    res = json.loads(data.decode())
+                    if res.get("status") != "deleted":
+                        failed.append((ch["chunk_name"], node))
+            except Exception as e:
+                log_console(f"❌ Delete {ch['chunk_name']} from {node} failed: {e}")
+                failed.append((ch["chunk_name"], node))
+
+    # Remove from metadata regardless (best-effort delete)
+    with lock:
+        del metadata["files"][filename]
+    save_metadata()
+
+    if failed:
+        return {"status": "partial", "msg": f"Deleted from namespace, {len(failed)} chunk(s) failed on nodes"}
+    return {"status": "deleted"}
+
+def handle_list() -> dict:
+    with lock:
+        files = []
+        for fname, entry in metadata["files"].items():
+            files.append({
+                "filename": fname,
+                "size_bytes": entry.get("size_bytes", 0),
+                "chunks": len(entry["chunks"]),
+                "uploaded_at": entry.get("uploaded_at", "unknown"),
+                "checksum": entry.get("file_checksum", "")[:16]
+            })
+    return {"status": "ok", "files": files}
 
 def handle_status() -> dict:
     """Return cluster status."""
@@ -359,6 +481,10 @@ def client_handler(conn: socket.socket, addr):
             res = handle_download(req["filename"])
         elif action == "status":
             res = handle_status()
+        elif action=="delete":
+            res = handle_delete(req["filename"])
+        elif action=="list":
+            res = handle_list()
         else:
             res = {"status": "error", "msg": "Invalid action"}
 
@@ -392,6 +518,7 @@ def start_namenode():
     # Start background threads
     threading.Thread(target=heartbeat_listener, daemon=True).start()
     threading.Thread(target=monitor_nodes, daemon=True).start()
+    threading.Thread(target=re_replicate, daemon=True).start()
 
     log_console(f"🧠 NameNode listening on 0.0.0.0:{NAMENODE_PORT}")
     
@@ -404,5 +531,5 @@ def start_namenode():
         conn, addr = srv.accept()
         threading.Thread(target=client_handler, args=(conn, addr), daemon=True).start()
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     start_namenode()

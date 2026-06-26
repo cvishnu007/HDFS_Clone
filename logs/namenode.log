@@ -1,0 +1,2116 @@
+2026-06-26 10:23:53,129 INFO 💓 Heartbeat listener active on 0.0.0.0:6000
+2026-06-26 10:23:53,133 INFO 🧠 NameNode listening on 0.0.0.0:5000
+2026-06-26 10:38:30,956 INFO 💓 Heartbeat listener active on 0.0.0.0:6000
+2026-06-26 10:38:30,956 INFO 🧠 NameNode listening on 0.0.0.0:5000
+2026-06-26 10:38:33,372 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:38:34,387 INFO ✅ Heartbeat from datanode2
+2026-06-26 10:38:38,371 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:38:39,389 INFO ✅ Heartbeat from datanode2
+2026-06-26 10:45:55,024 INFO 💓 Heartbeat listener active on 0.0.0.0:6000
+2026-06-26 10:45:55,027 INFO 🧠 NameNode listening on 0.0.0.0:5000
+2026-06-26 10:46:00,027 INFO ⚠ datanode1 is DOWN (no heartbeat)
+2026-06-26 10:46:00,027 INFO ⚠ datanode2 is DOWN (no heartbeat)
+2026-06-26 10:46:26,725 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:46:31,725 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:46:36,726 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:46:41,727 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:46:46,730 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:46:51,730 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:46:56,730 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:47:01,731 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:47:06,733 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:47:11,733 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:47:16,733 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:47:21,735 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:47:26,735 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:47:31,737 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:47:36,738 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:47:41,739 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:47:46,743 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:47:51,743 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:47:56,745 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:48:01,747 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:48:06,747 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:48:11,748 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:48:16,749 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:48:21,750 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:48:26,751 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:48:31,751 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:48:36,752 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:48:41,753 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:48:46,754 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:48:51,756 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:48:56,761 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:49:02,487 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:49:07,485 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:49:12,491 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:49:15,981 INFO 📞 New connection from ('127.0.0.1', 58694)
+2026-06-26 10:49:15,985 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 10:49:15,985 INFO 📩 Request: status from ('127.0.0.1', 58694)
+2026-06-26 10:49:15,986 INFO ✅ Status: 0 files, 2 nodes
+2026-06-26 10:49:15,986 INFO 📤 Sent status response (192 bytes) to ('127.0.0.1', 58694)
+2026-06-26 10:49:15,986 INFO 🔒 Connection closed with ('127.0.0.1', 58694)
+2026-06-26 10:49:17,491 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:49:22,491 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:49:27,491 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:49:32,493 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:49:37,503 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:49:42,497 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:49:47,497 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:49:52,498 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:49:57,503 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:50:02,503 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:50:07,503 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:50:12,505 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:50:12,970 INFO 📞 New connection from ('127.0.0.1', 46440)
+2026-06-26 10:50:12,970 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 10:50:12,971 INFO 📩 Request: status from ('127.0.0.1', 46440)
+2026-06-26 10:50:12,972 INFO ✅ Status: 0 files, 2 nodes
+2026-06-26 10:50:12,973 INFO 📤 Sent status response (192 bytes) to ('127.0.0.1', 46440)
+2026-06-26 10:50:12,973 INFO 🔒 Connection closed with ('127.0.0.1', 46440)
+2026-06-26 10:50:17,504 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:50:20,513 INFO 📞 New connection from ('127.0.0.1', 57624)
+2026-06-26 10:50:20,514 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 10:50:20,514 INFO 📩 Request: status from ('127.0.0.1', 57624)
+2026-06-26 10:50:20,514 INFO ✅ Status: 0 files, 2 nodes
+2026-06-26 10:50:20,515 INFO 📤 Sent status response (192 bytes) to ('127.0.0.1', 57624)
+2026-06-26 10:50:20,515 INFO 🔒 Connection closed with ('127.0.0.1', 57624)
+2026-06-26 10:50:22,205 INFO 📞 New connection from ('127.0.0.1', 57626)
+2026-06-26 10:50:22,206 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 10:50:22,206 INFO 📩 Request: status from ('127.0.0.1', 57626)
+2026-06-26 10:50:22,207 INFO ✅ Status: 0 files, 2 nodes
+2026-06-26 10:50:22,207 INFO 📤 Sent status response (192 bytes) to ('127.0.0.1', 57626)
+2026-06-26 10:50:22,208 INFO 🔒 Connection closed with ('127.0.0.1', 57626)
+2026-06-26 10:50:22,505 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:50:23,077 INFO 📞 New connection from ('127.0.0.1', 57640)
+2026-06-26 10:50:23,078 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 10:50:23,078 INFO 📩 Request: status from ('127.0.0.1', 57640)
+2026-06-26 10:50:23,078 INFO ✅ Status: 0 files, 2 nodes
+2026-06-26 10:50:23,078 INFO 📤 Sent status response (192 bytes) to ('127.0.0.1', 57640)
+2026-06-26 10:50:23,078 INFO 🔒 Connection closed with ('127.0.0.1', 57640)
+2026-06-26 10:50:27,506 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:50:30,918 INFO 📞 New connection from ('127.0.0.1', 43162)
+2026-06-26 10:50:30,919 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 10:50:30,919 INFO 📩 Request: status from ('127.0.0.1', 43162)
+2026-06-26 10:50:30,919 INFO ✅ Status: 0 files, 2 nodes
+2026-06-26 10:50:30,920 INFO 📤 Sent status response (192 bytes) to ('127.0.0.1', 43162)
+2026-06-26 10:50:30,920 INFO 🔒 Connection closed with ('127.0.0.1', 43162)
+2026-06-26 10:50:32,507 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:50:32,704 INFO 📞 New connection from ('127.0.0.1', 43166)
+2026-06-26 10:50:32,712 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 10:50:32,712 INFO 📩 Request: status from ('127.0.0.1', 43166)
+2026-06-26 10:50:32,712 INFO ✅ Status: 0 files, 2 nodes
+2026-06-26 10:50:32,712 INFO 📤 Sent status response (192 bytes) to ('127.0.0.1', 43166)
+2026-06-26 10:50:32,713 INFO 🔒 Connection closed with ('127.0.0.1', 43166)
+2026-06-26 10:50:32,727 INFO 📞 New connection from ('127.0.0.1', 43180)
+2026-06-26 10:50:32,730 INFO 📥 Received 382618 bytes total (0.36 MB)
+2026-06-26 10:50:32,732 INFO 📩 Request: upload from ('127.0.0.1', 43180)
+2026-06-26 10:50:32,733 INFO 🔼 Starting upload for Screenshot from 2026-06-16 06-50-54.png
+2026-06-26 10:50:32,733 INFO 📦 Decoding base64 content (382524 chars)
+2026-06-26 10:50:32,735 INFO 📊 File size: 286893 bytes (0.27 MB)
+2026-06-26 10:50:32,735 INFO 📦 File will be split into 1 chunks (2.0MB each)
+2026-06-26 10:50:32,737 INFO 📤 Chunk 1/1: Screenshot from 2026-06-16 06-50-54.png_part0 (286893 bytes)
+2026-06-26 10:50:32,737 INFO   → Storing on datanode1...
+2026-06-26 10:50:37,510 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:50:42,513 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:50:47,513 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:50:52,513 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:50:53,741 INFO ❌ Store on datanode1 failed: [Errno 111] Connection refused
+2026-06-26 10:50:53,741 INFO   ❌ datanode1
+2026-06-26 10:50:53,741 INFO   → Storing on datanode2...
+2026-06-26 10:50:53,742 INFO ⚠ Skipping datanode2 (not alive)
+2026-06-26 10:50:53,742 INFO   ❌ datanode2
+2026-06-26 10:50:53,742 INFO ❌ No replicas for chunk Screenshot from 2026-06-16 06-50-54.png_part0
+2026-06-26 10:50:53,742 INFO 📤 Sent upload response (91 bytes) to ('127.0.0.1', 43180)
+2026-06-26 10:50:53,742 INFO 🔒 Connection closed with ('127.0.0.1', 43180)
+2026-06-26 10:50:57,515 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:51:02,515 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:51:07,516 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:51:12,520 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:51:17,521 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:51:22,522 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:51:27,524 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:51:32,524 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:51:37,525 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:51:42,525 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:51:47,525 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:51:52,526 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:51:57,528 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:52:02,528 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:52:07,529 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:52:12,537 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:52:17,536 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:52:22,538 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:52:27,539 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:52:32,549 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:52:37,549 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:52:42,550 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:52:47,550 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:52:52,552 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:52:57,552 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:53:02,553 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:53:07,553 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:53:12,553 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:53:17,554 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:53:22,554 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:53:37,014 INFO 🧠 NameNode listening on 0.0.0.0:5000
+2026-06-26 10:53:37,015 INFO 💓 Heartbeat listener active on 0.0.0.0:6000
+2026-06-26 10:53:42,014 INFO ⚠ datanode1 is DOWN (no heartbeat)
+2026-06-26 10:53:42,038 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:53:47,038 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:53:52,039 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:53:55,759 INFO 📞 New connection from ('127.0.0.1', 37782)
+2026-06-26 10:53:55,763 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 10:53:55,764 INFO 📩 Request: status from ('127.0.0.1', 37782)
+2026-06-26 10:53:55,764 INFO ✅ Status: 0 files, 2 nodes
+2026-06-26 10:53:55,764 INFO 📤 Sent status response (192 bytes) to ('127.0.0.1', 37782)
+2026-06-26 10:53:55,765 INFO 🔒 Connection closed with ('127.0.0.1', 37782)
+2026-06-26 10:53:56,933 INFO 📞 New connection from ('127.0.0.1', 37798)
+2026-06-26 10:53:56,936 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 10:53:56,937 INFO 📩 Request: status from ('127.0.0.1', 37798)
+2026-06-26 10:53:56,937 INFO ✅ Status: 0 files, 2 nodes
+2026-06-26 10:53:56,937 INFO 📤 Sent status response (192 bytes) to ('127.0.0.1', 37798)
+2026-06-26 10:53:56,938 INFO 🔒 Connection closed with ('127.0.0.1', 37798)
+2026-06-26 10:53:57,040 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:53:57,150 INFO 📞 New connection from ('127.0.0.1', 37808)
+2026-06-26 10:53:57,150 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 10:53:57,150 INFO 📩 Request: status from ('127.0.0.1', 37808)
+2026-06-26 10:53:57,150 INFO ✅ Status: 0 files, 2 nodes
+2026-06-26 10:53:57,151 INFO 📤 Sent status response (192 bytes) to ('127.0.0.1', 37808)
+2026-06-26 10:53:57,151 INFO 🔒 Connection closed with ('127.0.0.1', 37808)
+2026-06-26 10:54:00,214 INFO 📞 New connection from ('127.0.0.1', 47812)
+2026-06-26 10:54:00,217 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 10:54:00,222 INFO 📩 Request: status from ('127.0.0.1', 47812)
+2026-06-26 10:54:00,222 INFO ✅ Status: 0 files, 2 nodes
+2026-06-26 10:54:00,223 INFO 📤 Sent status response (192 bytes) to ('127.0.0.1', 47812)
+2026-06-26 10:54:00,223 INFO 🔒 Connection closed with ('127.0.0.1', 47812)
+2026-06-26 10:54:02,041 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:54:02,709 INFO 📞 New connection from ('127.0.0.1', 47820)
+2026-06-26 10:54:02,710 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 10:54:02,711 INFO 📩 Request: status from ('127.0.0.1', 47820)
+2026-06-26 10:54:02,712 INFO ✅ Status: 0 files, 2 nodes
+2026-06-26 10:54:02,712 INFO 📤 Sent status response (192 bytes) to ('127.0.0.1', 47820)
+2026-06-26 10:54:02,712 INFO 🔒 Connection closed with ('127.0.0.1', 47820)
+2026-06-26 10:54:03,733 INFO 📞 New connection from ('127.0.0.1', 47826)
+2026-06-26 10:54:03,733 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 10:54:03,735 INFO 📩 Request: status from ('127.0.0.1', 47826)
+2026-06-26 10:54:03,735 INFO ✅ Status: 0 files, 2 nodes
+2026-06-26 10:54:03,735 INFO 📤 Sent status response (192 bytes) to ('127.0.0.1', 47826)
+2026-06-26 10:54:03,735 INFO 🔒 Connection closed with ('127.0.0.1', 47826)
+2026-06-26 10:54:03,763 INFO 📞 New connection from ('127.0.0.1', 47840)
+2026-06-26 10:54:03,765 INFO 📥 Received 382618 bytes total (0.36 MB)
+2026-06-26 10:54:03,766 INFO 📩 Request: upload from ('127.0.0.1', 47840)
+2026-06-26 10:54:03,766 INFO 🔼 Starting upload for Screenshot from 2026-06-16 06-50-54.png
+2026-06-26 10:54:03,766 INFO 📦 Decoding base64 content (382524 chars)
+2026-06-26 10:54:03,767 INFO 📊 File size: 286893 bytes (0.27 MB)
+2026-06-26 10:54:03,767 INFO 📦 File will be split into 1 chunks (2.0MB each)
+2026-06-26 10:54:03,768 INFO 📤 Chunk 1/1: Screenshot from 2026-06-16 06-50-54.png_part0 (286893 bytes)
+2026-06-26 10:54:03,768 INFO   → Storing on datanode1...
+2026-06-26 10:54:03,769 INFO 📤 Sending 373 KB to datanode1
+2026-06-26 10:54:03,787 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 10:54:03,789 INFO ✅ Stored Screenshot from 2026-06-16 06-50-54.png_part0 on datanode1
+2026-06-26 10:54:03,789 INFO   ✅ datanode1
+2026-06-26 10:54:03,789 INFO   → Storing on datanode2...
+2026-06-26 10:54:03,789 INFO ⚠ Skipping datanode2 (not alive)
+2026-06-26 10:54:03,789 INFO   ❌ datanode2
+2026-06-26 10:54:03,789 INFO ✅ Chunk 1/1 stored on 1 node(s)
+2026-06-26 10:54:03,791 INFO ✅✅ UPLOAD COMPLETE: Screenshot from 2026-06-16 06-50-54.png in 1 chunks
+2026-06-26 10:54:03,792 INFO 📤 Sent upload response (35 bytes) to ('127.0.0.1', 47840)
+2026-06-26 10:54:03,792 INFO 🔒 Connection closed with ('127.0.0.1', 47840)
+2026-06-26 10:54:07,042 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:54:12,048 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:54:17,050 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:54:17,523 INFO 📞 New connection from ('127.0.0.1', 58020)
+2026-06-26 10:54:17,528 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 10:54:17,530 INFO 📩 Request: status from ('127.0.0.1', 58020)
+2026-06-26 10:54:17,531 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 10:54:17,531 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 58020)
+2026-06-26 10:54:17,531 INFO 🔒 Connection closed with ('127.0.0.1', 58020)
+2026-06-26 10:54:17,625 INFO 📞 New connection from ('127.0.0.1', 58028)
+2026-06-26 10:54:17,625 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 10:54:17,625 INFO 📩 Request: status from ('127.0.0.1', 58028)
+2026-06-26 10:54:17,626 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 10:54:17,626 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 58028)
+2026-06-26 10:54:17,626 INFO 🔒 Connection closed with ('127.0.0.1', 58028)
+2026-06-26 10:54:17,694 INFO 📞 New connection from ('127.0.0.1', 58044)
+2026-06-26 10:54:17,694 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 10:54:17,694 INFO 📩 Request: status from ('127.0.0.1', 58044)
+2026-06-26 10:54:17,695 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 10:54:17,695 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 58044)
+2026-06-26 10:54:17,695 INFO 🔒 Connection closed with ('127.0.0.1', 58044)
+2026-06-26 10:54:17,707 INFO 📞 New connection from ('127.0.0.1', 58058)
+2026-06-26 10:54:17,707 INFO 📥 Received 77 bytes total (0.00 MB)
+2026-06-26 10:54:17,707 INFO 📩 Request: download from ('127.0.0.1', 58058)
+2026-06-26 10:54:17,707 INFO 📤 Sent download response (200 bytes) to ('127.0.0.1', 58058)
+2026-06-26 10:54:17,707 INFO 🔒 Connection closed with ('127.0.0.1', 58058)
+2026-06-26 10:54:17,721 INFO 📞 New connection from ('127.0.0.1', 58060)
+2026-06-26 10:54:17,722 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 10:54:17,722 INFO 📩 Request: status from ('127.0.0.1', 58060)
+2026-06-26 10:54:17,723 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 10:54:17,723 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 58060)
+2026-06-26 10:54:17,723 INFO 🔒 Connection closed with ('127.0.0.1', 58060)
+2026-06-26 10:54:19,413 INFO 📞 New connection from ('127.0.0.1', 58070)
+2026-06-26 10:54:19,414 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 10:54:19,414 INFO 📩 Request: status from ('127.0.0.1', 58070)
+2026-06-26 10:54:19,414 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 10:54:19,414 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 58070)
+2026-06-26 10:54:19,414 INFO 🔒 Connection closed with ('127.0.0.1', 58070)
+2026-06-26 10:54:22,052 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:54:27,051 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:54:32,052 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:54:37,054 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:54:42,054 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:54:47,094 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:54:52,094 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:54:57,094 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:55:02,095 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:55:07,101 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:55:12,102 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:55:17,105 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:55:22,115 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:55:27,116 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:55:32,120 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:55:37,155 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:55:42,149 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:55:47,151 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:55:52,150 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:55:57,158 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:56:02,154 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:56:07,155 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:56:12,157 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:56:17,158 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:56:22,165 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:56:27,169 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:56:32,176 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:56:37,176 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:56:42,182 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:56:47,186 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:56:52,191 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:56:57,192 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:57:02,192 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:57:07,193 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:57:12,193 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:57:17,193 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:57:22,214 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:57:27,204 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:57:32,214 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:57:37,214 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:57:42,288 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:57:47,288 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:57:52,288 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:57:57,289 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:58:02,289 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:58:07,290 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:58:12,290 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:58:17,291 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:58:22,291 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:58:27,292 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:58:32,294 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:58:37,296 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:58:42,301 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:58:47,301 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:58:52,310 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:58:57,310 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:59:02,311 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:59:07,314 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:59:12,312 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:59:17,375 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:59:22,375 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:59:27,378 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:59:32,378 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:59:37,381 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:59:42,382 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:59:47,384 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:59:52,387 INFO ✅ Heartbeat from datanode1
+2026-06-26 10:59:57,390 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:00:02,390 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:00:07,390 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:00:12,392 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:00:17,394 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:00:22,394 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:00:27,395 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:00:32,398 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:00:37,403 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:00:42,404 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:00:47,405 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:00:52,406 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:00:57,405 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:01:02,407 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:01:07,410 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:01:12,430 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:01:17,324 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:01:22,325 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:01:27,326 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:01:32,326 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:01:37,329 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:01:42,333 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:01:47,334 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:01:52,336 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:01:57,337 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:02:02,338 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:02:07,339 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:02:12,341 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:02:17,342 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:02:22,341 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:02:27,341 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:02:32,343 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:02:37,352 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:02:42,352 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:02:47,353 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:02:52,357 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:02:57,357 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:03:02,358 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:03:07,359 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:03:12,360 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:03:17,361 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:03:22,362 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:03:27,363 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:03:32,364 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:03:37,364 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:03:57,274 INFO ⚠ datanode1 is DOWN (no heartbeat)
+2026-06-26 11:04:22,403 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:04:27,404 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:04:32,404 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:04:37,408 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:04:42,414 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:04:47,415 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:04:52,418 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:04:57,419 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:05:02,429 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:05:07,427 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:05:12,428 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:05:17,428 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:05:22,428 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:05:27,430 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:05:32,441 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:05:37,442 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:05:42,445 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:05:47,451 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:05:52,451 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:05:57,452 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:06:02,460 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:06:07,463 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:06:12,466 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:06:17,468 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:06:22,468 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:06:27,471 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:06:32,472 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:06:37,472 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:06:42,473 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:06:47,479 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:06:52,480 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:06:57,479 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:07:02,479 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:07:10,275 INFO 💓 Heartbeat listener active on 0.0.0.0:6000
+2026-06-26 11:07:10,275 INFO 🧠 NameNode listening on 0.0.0.0:5000
+2026-06-26 11:07:12,481 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:07:17,483 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:07:24,833 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:07:29,832 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:07:34,834 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:07:37,445 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:07:39,834 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:07:42,445 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:07:44,839 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:07:47,445 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:07:49,840 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:07:52,447 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:07:54,848 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:07:57,447 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:07:59,884 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:08:02,452 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:08:04,884 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:08:07,456 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:08:09,902 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:08:12,456 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:08:14,902 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:08:17,456 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:08:19,902 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:08:22,458 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:08:24,902 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:08:27,457 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:08:29,903 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:08:32,458 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:08:34,904 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:08:37,460 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:08:38,424 INFO 📞 New connection from ('127.0.0.1', 34694)
+2026-06-26 11:08:38,425 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:08:38,426 INFO 📩 Request: status from ('127.0.0.1', 34694)
+2026-06-26 11:08:38,427 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:08:38,428 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 34694)
+2026-06-26 11:08:38,428 INFO 🔒 Connection closed with ('127.0.0.1', 34694)
+2026-06-26 11:08:39,907 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:08:42,460 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:08:44,742 INFO 📞 New connection from ('127.0.0.1', 34708)
+2026-06-26 11:08:44,742 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:08:44,742 INFO 📩 Request: status from ('127.0.0.1', 34708)
+2026-06-26 11:08:44,743 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:08:44,743 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 34708)
+2026-06-26 11:08:44,743 INFO 🔒 Connection closed with ('127.0.0.1', 34708)
+2026-06-26 11:08:44,905 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:08:45,581 INFO 📞 New connection from ('127.0.0.1', 34724)
+2026-06-26 11:08:45,589 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:08:45,589 INFO 📩 Request: status from ('127.0.0.1', 34724)
+2026-06-26 11:08:45,589 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:08:45,589 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 34724)
+2026-06-26 11:08:45,590 INFO 🔒 Connection closed with ('127.0.0.1', 34724)
+2026-06-26 11:08:45,779 INFO 📞 New connection from ('127.0.0.1', 34730)
+2026-06-26 11:08:45,781 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:08:45,783 INFO 📩 Request: status from ('127.0.0.1', 34730)
+2026-06-26 11:08:45,783 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:08:45,783 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 34730)
+2026-06-26 11:08:45,784 INFO 🔒 Connection closed with ('127.0.0.1', 34730)
+2026-06-26 11:08:47,461 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:08:49,907 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:08:52,463 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:08:54,907 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:08:57,463 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:08:59,907 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:09:01,363 INFO 📞 New connection from ('127.0.0.1', 38864)
+2026-06-26 11:09:01,366 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:09:01,366 INFO 📩 Request: status from ('127.0.0.1', 38864)
+2026-06-26 11:09:01,366 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:09:01,366 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 38864)
+2026-06-26 11:09:01,366 INFO 🔒 Connection closed with ('127.0.0.1', 38864)
+2026-06-26 11:09:02,465 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:09:02,853 INFO 📞 New connection from ('127.0.0.1', 38872)
+2026-06-26 11:09:02,867 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:09:02,868 INFO 📩 Request: status from ('127.0.0.1', 38872)
+2026-06-26 11:09:02,868 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:09:02,868 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 38872)
+2026-06-26 11:09:02,868 INFO 🔒 Connection closed with ('127.0.0.1', 38872)
+2026-06-26 11:09:03,074 INFO 📞 New connection from ('127.0.0.1', 38876)
+2026-06-26 11:09:03,270 INFO 📥 Received 16777384 bytes total (16.00 MB)
+2026-06-26 11:09:03,309 INFO 📩 Request: upload from ('127.0.0.1', 38876)
+2026-06-26 11:09:03,310 INFO 🔼 Starting upload for DA_U1.pdf
+2026-06-26 11:09:03,310 INFO 📦 Decoding base64 content (16777320 chars)
+2026-06-26 11:09:03,364 INFO 📊 File size: 12582990 bytes (12.00 MB)
+2026-06-26 11:09:03,366 INFO 📦 File will be split into 7 chunks (2.0MB each)
+2026-06-26 11:09:03,373 INFO 📤 Chunk 1/7: DA_U1.pdf_part0 (2097152 bytes)
+2026-06-26 11:09:03,374 INFO   → Storing on datanode1...
+2026-06-26 11:09:03,385 INFO 📤 Sending 2730 KB to datanode1
+2026-06-26 11:09:03,404 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:09:03,405 INFO ✅ Stored DA_U1.pdf_part0 on datanode1
+2026-06-26 11:09:03,405 INFO   ✅ datanode1
+2026-06-26 11:09:03,405 INFO   → Storing on datanode2...
+2026-06-26 11:09:03,414 INFO 📤 Sending 2730 KB to datanode2
+2026-06-26 11:09:03,448 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:09:03,448 INFO ✅ Stored DA_U1.pdf_part0 on datanode2
+2026-06-26 11:09:03,448 INFO   ✅ datanode2
+2026-06-26 11:09:03,449 INFO ✅ Chunk 1/7 stored on 2 node(s)
+2026-06-26 11:09:03,457 INFO 📤 Chunk 2/7: DA_U1.pdf_part1 (2097152 bytes)
+2026-06-26 11:09:03,457 INFO   → Storing on datanode1...
+2026-06-26 11:09:03,466 INFO 📤 Sending 2730 KB to datanode1
+2026-06-26 11:09:03,493 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:09:03,493 INFO ✅ Stored DA_U1.pdf_part1 on datanode1
+2026-06-26 11:09:03,495 INFO   ✅ datanode1
+2026-06-26 11:09:03,497 INFO   → Storing on datanode2...
+2026-06-26 11:09:03,508 INFO 📤 Sending 2730 KB to datanode2
+2026-06-26 11:09:03,537 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:09:03,538 INFO ✅ Stored DA_U1.pdf_part1 on datanode2
+2026-06-26 11:09:03,539 INFO   ✅ datanode2
+2026-06-26 11:09:03,540 INFO ✅ Chunk 2/7 stored on 2 node(s)
+2026-06-26 11:09:03,547 INFO 📤 Chunk 3/7: DA_U1.pdf_part2 (2097152 bytes)
+2026-06-26 11:09:03,548 INFO   → Storing on datanode1...
+2026-06-26 11:09:03,569 INFO 📤 Sending 2730 KB to datanode1
+2026-06-26 11:09:03,603 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:09:03,603 INFO ✅ Stored DA_U1.pdf_part2 on datanode1
+2026-06-26 11:09:03,603 INFO   ✅ datanode1
+2026-06-26 11:09:03,603 INFO   → Storing on datanode2...
+2026-06-26 11:09:03,616 INFO 📤 Sending 2730 KB to datanode2
+2026-06-26 11:09:03,642 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:09:03,643 INFO ✅ Stored DA_U1.pdf_part2 on datanode2
+2026-06-26 11:09:03,643 INFO   ✅ datanode2
+2026-06-26 11:09:03,643 INFO ✅ Chunk 3/7 stored on 2 node(s)
+2026-06-26 11:09:03,651 INFO 📤 Chunk 4/7: DA_U1.pdf_part3 (2097152 bytes)
+2026-06-26 11:09:03,651 INFO   → Storing on datanode1...
+2026-06-26 11:09:03,664 INFO 📤 Sending 2730 KB to datanode1
+2026-06-26 11:09:03,700 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:09:03,701 INFO ✅ Stored DA_U1.pdf_part3 on datanode1
+2026-06-26 11:09:03,702 INFO   ✅ datanode1
+2026-06-26 11:09:03,702 INFO   → Storing on datanode2...
+2026-06-26 11:09:03,716 INFO 📤 Sending 2730 KB to datanode2
+2026-06-26 11:09:03,745 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:09:03,749 INFO ✅ Stored DA_U1.pdf_part3 on datanode2
+2026-06-26 11:09:03,751 INFO   ✅ datanode2
+2026-06-26 11:09:03,751 INFO ✅ Chunk 4/7 stored on 2 node(s)
+2026-06-26 11:09:03,761 INFO 📤 Chunk 5/7: DA_U1.pdf_part4 (2097152 bytes)
+2026-06-26 11:09:03,761 INFO   → Storing on datanode1...
+2026-06-26 11:09:03,772 INFO 📤 Sending 2730 KB to datanode1
+2026-06-26 11:09:03,817 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:09:03,818 INFO ✅ Stored DA_U1.pdf_part4 on datanode1
+2026-06-26 11:09:03,819 INFO   ✅ datanode1
+2026-06-26 11:09:03,820 INFO   → Storing on datanode2...
+2026-06-26 11:09:03,832 INFO 📤 Sending 2730 KB to datanode2
+2026-06-26 11:09:03,858 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:09:03,859 INFO ✅ Stored DA_U1.pdf_part4 on datanode2
+2026-06-26 11:09:03,859 INFO   ✅ datanode2
+2026-06-26 11:09:03,860 INFO ✅ Chunk 5/7 stored on 2 node(s)
+2026-06-26 11:09:03,866 INFO 📤 Chunk 6/7: DA_U1.pdf_part5 (2097152 bytes)
+2026-06-26 11:09:03,867 INFO   → Storing on datanode1...
+2026-06-26 11:09:03,875 INFO 📤 Sending 2730 KB to datanode1
+2026-06-26 11:09:03,905 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:09:03,907 INFO ✅ Stored DA_U1.pdf_part5 on datanode1
+2026-06-26 11:09:03,907 INFO   ✅ datanode1
+2026-06-26 11:09:03,907 INFO   → Storing on datanode2...
+2026-06-26 11:09:03,914 INFO 📤 Sending 2730 KB to datanode2
+2026-06-26 11:09:03,936 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:09:03,938 INFO ✅ Stored DA_U1.pdf_part5 on datanode2
+2026-06-26 11:09:03,938 INFO   ✅ datanode2
+2026-06-26 11:09:03,938 INFO ✅ Chunk 6/7 stored on 2 node(s)
+2026-06-26 11:09:03,939 INFO 📤 Chunk 7/7: DA_U1.pdf_part6 (78 bytes)
+2026-06-26 11:09:03,939 INFO   → Storing on datanode1...
+2026-06-26 11:09:03,939 INFO 📤 Sending 0 KB to datanode1
+2026-06-26 11:09:03,942 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:09:03,942 INFO ✅ Stored DA_U1.pdf_part6 on datanode1
+2026-06-26 11:09:03,942 INFO   ✅ datanode1
+2026-06-26 11:09:03,942 INFO   → Storing on datanode2...
+2026-06-26 11:09:03,943 INFO 📤 Sending 0 KB to datanode2
+2026-06-26 11:09:03,945 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:09:03,946 INFO ✅ Stored DA_U1.pdf_part6 on datanode2
+2026-06-26 11:09:03,946 INFO   ✅ datanode2
+2026-06-26 11:09:03,946 INFO ✅ Chunk 7/7 stored on 2 node(s)
+2026-06-26 11:09:03,963 INFO ✅✅ UPLOAD COMPLETE: DA_U1.pdf in 7 chunks
+2026-06-26 11:09:03,967 INFO 📤 Sent upload response (35 bytes) to ('127.0.0.1', 38876)
+2026-06-26 11:09:03,967 INFO 🔒 Connection closed with ('127.0.0.1', 38876)
+2026-06-26 11:09:04,909 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:09:07,469 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:09:09,909 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:09:12,474 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:09:12,816 INFO 📞 New connection from ('127.0.0.1', 33558)
+2026-06-26 11:09:12,816 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:09:12,817 INFO 📩 Request: status from ('127.0.0.1', 33558)
+2026-06-26 11:09:12,817 INFO ✅ Status: 2 files, 2 nodes
+2026-06-26 11:09:12,817 INFO 📤 Sent status response (1701 bytes) to ('127.0.0.1', 33558)
+2026-06-26 11:09:12,817 INFO 🔒 Connection closed with ('127.0.0.1', 33558)
+2026-06-26 11:09:14,909 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:09:15,117 INFO 📞 New connection from ('127.0.0.1', 33570)
+2026-06-26 11:09:15,121 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:09:15,122 INFO 📩 Request: status from ('127.0.0.1', 33570)
+2026-06-26 11:09:15,122 INFO ✅ Status: 2 files, 2 nodes
+2026-06-26 11:09:15,123 INFO 📤 Sent status response (1701 bytes) to ('127.0.0.1', 33570)
+2026-06-26 11:09:15,123 INFO 🔒 Connection closed with ('127.0.0.1', 33570)
+2026-06-26 11:09:15,182 INFO 📞 New connection from ('127.0.0.1', 33576)
+2026-06-26 11:09:15,182 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:09:15,182 INFO 📩 Request: status from ('127.0.0.1', 33576)
+2026-06-26 11:09:15,182 INFO ✅ Status: 2 files, 2 nodes
+2026-06-26 11:09:15,182 INFO 📤 Sent status response (1701 bytes) to ('127.0.0.1', 33576)
+2026-06-26 11:09:15,182 INFO 🔒 Connection closed with ('127.0.0.1', 33576)
+2026-06-26 11:09:15,184 INFO 📞 New connection from ('127.0.0.1', 33578)
+2026-06-26 11:09:15,185 INFO 📥 Received 47 bytes total (0.00 MB)
+2026-06-26 11:09:15,186 INFO 📩 Request: download from ('127.0.0.1', 33578)
+2026-06-26 11:09:15,186 INFO 📤 Sent download response (1113 bytes) to ('127.0.0.1', 33578)
+2026-06-26 11:09:15,187 INFO 🔒 Connection closed with ('127.0.0.1', 33578)
+2026-06-26 11:09:15,189 INFO 📞 New connection from ('127.0.0.1', 33594)
+2026-06-26 11:09:15,189 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:09:15,189 INFO 📩 Request: status from ('127.0.0.1', 33594)
+2026-06-26 11:09:15,189 INFO ✅ Status: 2 files, 2 nodes
+2026-06-26 11:09:15,190 INFO 📤 Sent status response (1701 bytes) to ('127.0.0.1', 33594)
+2026-06-26 11:09:15,190 INFO 🔒 Connection closed with ('127.0.0.1', 33594)
+2026-06-26 11:09:16,917 INFO 📞 New connection from ('127.0.0.1', 33602)
+2026-06-26 11:09:16,918 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:09:16,918 INFO 📩 Request: status from ('127.0.0.1', 33602)
+2026-06-26 11:09:16,919 INFO ✅ Status: 2 files, 2 nodes
+2026-06-26 11:09:16,920 INFO 📤 Sent status response (1701 bytes) to ('127.0.0.1', 33602)
+2026-06-26 11:09:16,921 INFO 🔒 Connection closed with ('127.0.0.1', 33602)
+2026-06-26 11:09:17,477 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:09:19,915 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:09:22,479 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:09:24,921 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:09:27,480 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:09:29,921 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:09:32,497 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:09:34,924 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:09:37,507 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:09:39,922 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:09:42,508 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:09:44,923 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:09:47,508 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:09:49,924 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:09:52,511 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:09:54,925 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:09:57,511 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:09:59,925 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:10:02,512 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:10:04,932 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:10:07,512 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:10:09,932 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:10:12,515 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:10:14,933 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:10:17,515 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:10:19,959 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:10:22,519 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:10:24,960 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:10:27,520 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:10:29,960 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:10:32,520 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:10:34,964 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:10:37,523 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:10:40,012 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:10:42,532 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:10:45,018 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:10:47,533 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:10:50,023 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:10:52,534 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:10:55,028 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:10:57,543 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:11:00,033 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:11:02,544 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:11:05,032 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:11:07,546 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:11:10,032 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:11:12,558 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:11:15,036 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:11:17,566 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:11:20,033 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:11:22,567 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:11:25,033 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:11:27,571 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:11:30,037 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:11:32,570 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:11:35,037 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:11:37,572 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:11:40,037 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:11:42,577 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:11:45,038 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:11:47,579 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:11:50,040 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:11:52,581 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:11:55,041 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:11:57,582 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:12:00,042 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:12:02,583 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:12:05,052 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:12:07,586 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:12:10,067 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:12:12,584 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:12:15,133 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:12:17,595 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:12:20,140 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:12:22,596 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:12:25,144 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:12:27,597 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:12:30,153 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:12:32,598 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:12:35,153 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:12:37,598 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:12:40,154 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:12:42,598 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:12:45,158 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:12:47,598 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:12:50,156 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:12:52,601 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:12:55,160 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:12:57,603 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:13:00,159 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:13:02,646 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:13:05,161 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:13:07,647 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:13:10,174 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:13:12,653 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:13:15,162 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:13:17,649 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:13:20,170 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:13:22,649 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:13:25,170 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:13:27,650 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:13:30,171 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:13:32,650 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:13:35,171 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:13:37,650 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:13:40,172 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:13:42,650 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:13:45,186 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:13:47,651 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:13:50,189 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:13:52,652 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:13:55,196 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:13:57,652 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:14:00,218 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:14:02,656 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:14:05,217 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:14:07,657 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:14:10,221 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:14:12,657 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:14:15,228 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:14:17,661 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:14:20,232 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:14:22,661 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:14:25,237 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:14:27,662 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:14:30,236 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:14:32,665 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:14:35,239 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:14:37,665 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:14:40,239 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:14:42,671 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:14:45,239 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:14:47,670 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:14:50,241 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:14:52,680 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:14:55,242 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:15:08,957 INFO 💓 Heartbeat listener active on 0.0.0.0:6000
+2026-06-26 11:15:08,957 INFO 🧠 NameNode listening on 0.0.0.0:5000
+2026-06-26 11:15:13,388 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:15:13,957 INFO ⚠ datanode2 is DOWN (no heartbeat)
+2026-06-26 11:15:18,393 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:15:20,082 INFO 📞 New connection from ('127.0.0.1', 48110)
+2026-06-26 11:15:20,083 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:15:20,083 INFO 📩 Request: status from ('127.0.0.1', 48110)
+2026-06-26 11:15:20,084 INFO ✅ Status: 2 files, 2 nodes
+2026-06-26 11:15:20,085 INFO 📤 Sent status response (2469 bytes) to ('127.0.0.1', 48110)
+2026-06-26 11:15:20,085 INFO 🔒 Connection closed with ('127.0.0.1', 48110)
+2026-06-26 11:15:22,630 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:15:23,391 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:15:27,635 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:15:28,389 INFO 📞 New connection from ('127.0.0.1', 59028)
+2026-06-26 11:15:28,390 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:15:28,393 INFO 📩 Request: status from ('127.0.0.1', 59028)
+2026-06-26 11:15:28,393 INFO ✅ Status: 2 files, 2 nodes
+2026-06-26 11:15:28,394 INFO 📤 Sent status response (1701 bytes) to ('127.0.0.1', 59028)
+2026-06-26 11:15:28,394 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:15:28,394 INFO 🔒 Connection closed with ('127.0.0.1', 59028)
+2026-06-26 11:15:32,639 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:15:33,397 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:15:37,638 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:15:38,396 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:15:40,913 INFO 📞 New connection from ('127.0.0.1', 58896)
+2026-06-26 11:15:40,914 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:15:40,914 INFO 📩 Request: status from ('127.0.0.1', 58896)
+2026-06-26 11:15:40,915 INFO ✅ Status: 2 files, 2 nodes
+2026-06-26 11:15:40,915 INFO 📤 Sent status response (1701 bytes) to ('127.0.0.1', 58896)
+2026-06-26 11:15:40,916 INFO 🔒 Connection closed with ('127.0.0.1', 58896)
+2026-06-26 11:15:42,641 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:15:43,397 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:15:45,174 INFO 📞 New connection from ('127.0.0.1', 58910)
+2026-06-26 11:15:45,177 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:15:45,179 INFO 📩 Request: status from ('127.0.0.1', 58910)
+2026-06-26 11:15:45,181 INFO ✅ Status: 2 files, 2 nodes
+2026-06-26 11:15:45,181 INFO 📤 Sent status response (1701 bytes) to ('127.0.0.1', 58910)
+2026-06-26 11:15:45,182 INFO 🔒 Connection closed with ('127.0.0.1', 58910)
+2026-06-26 11:15:45,264 INFO 📞 New connection from ('127.0.0.1', 58922)
+2026-06-26 11:15:45,265 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:15:45,265 INFO 📩 Request: status from ('127.0.0.1', 58922)
+2026-06-26 11:15:45,266 INFO ✅ Status: 2 files, 2 nodes
+2026-06-26 11:15:45,266 INFO 📤 Sent status response (1701 bytes) to ('127.0.0.1', 58922)
+2026-06-26 11:15:45,270 INFO 🔒 Connection closed with ('127.0.0.1', 58922)
+2026-06-26 11:15:45,290 INFO 📞 New connection from ('127.0.0.1', 58932)
+2026-06-26 11:15:45,291 INFO 📥 Received 45 bytes total (0.00 MB)
+2026-06-26 11:15:45,291 INFO 📩 Request: delete from ('127.0.0.1', 58932)
+2026-06-26 11:15:45,294 INFO 📥 Received 21 bytes total (0.00 MB)
+2026-06-26 11:15:45,296 INFO 📥 Received 21 bytes total (0.00 MB)
+2026-06-26 11:15:45,307 INFO 📥 Received 21 bytes total (0.00 MB)
+2026-06-26 11:15:45,309 INFO 📥 Received 21 bytes total (0.00 MB)
+2026-06-26 11:15:45,312 INFO 📥 Received 21 bytes total (0.00 MB)
+2026-06-26 11:15:45,314 INFO 📥 Received 21 bytes total (0.00 MB)
+2026-06-26 11:15:45,315 INFO 📥 Received 21 bytes total (0.00 MB)
+2026-06-26 11:15:45,316 INFO 📥 Received 21 bytes total (0.00 MB)
+2026-06-26 11:15:45,320 INFO 📥 Received 21 bytes total (0.00 MB)
+2026-06-26 11:15:45,320 INFO 📥 Received 21 bytes total (0.00 MB)
+2026-06-26 11:15:45,324 INFO 📥 Received 21 bytes total (0.00 MB)
+2026-06-26 11:15:45,326 INFO 📥 Received 21 bytes total (0.00 MB)
+2026-06-26 11:15:45,328 INFO 📥 Received 21 bytes total (0.00 MB)
+2026-06-26 11:15:45,332 INFO 📥 Received 21 bytes total (0.00 MB)
+2026-06-26 11:15:45,333 INFO 📤 Sent delete response (21 bytes) to ('127.0.0.1', 58932)
+2026-06-26 11:15:45,333 INFO 🔒 Connection closed with ('127.0.0.1', 58932)
+2026-06-26 11:15:47,645 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:15:48,400 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:15:49,510 INFO 📞 New connection from ('127.0.0.1', 49564)
+2026-06-26 11:15:49,523 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:15:49,524 INFO 📩 Request: status from ('127.0.0.1', 49564)
+2026-06-26 11:15:49,524 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:15:49,524 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 49564)
+2026-06-26 11:15:49,524 INFO 🔒 Connection closed with ('127.0.0.1', 49564)
+2026-06-26 11:15:50,871 INFO 📞 New connection from ('127.0.0.1', 49578)
+2026-06-26 11:15:50,871 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:15:50,871 INFO 📩 Request: status from ('127.0.0.1', 49578)
+2026-06-26 11:15:50,871 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:15:50,872 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 49578)
+2026-06-26 11:15:50,873 INFO 🔒 Connection closed with ('127.0.0.1', 49578)
+2026-06-26 11:15:51,039 INFO 📞 New connection from ('127.0.0.1', 49586)
+2026-06-26 11:15:51,044 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:15:51,045 INFO 📩 Request: status from ('127.0.0.1', 49586)
+2026-06-26 11:15:51,045 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:15:51,045 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 49586)
+2026-06-26 11:15:51,045 INFO 🔒 Connection closed with ('127.0.0.1', 49586)
+2026-06-26 11:15:52,646 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:15:53,399 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:15:57,648 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:15:58,400 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:16:02,651 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:16:03,410 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:16:07,655 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:16:08,446 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:16:12,654 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:16:13,445 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:16:17,655 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:16:18,449 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:16:22,655 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:16:23,449 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:16:27,657 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:16:28,451 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:16:32,657 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:16:33,453 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:16:37,657 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:16:38,452 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:16:42,658 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:16:43,454 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:16:47,659 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:16:48,454 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:16:52,662 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:16:53,456 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:16:57,662 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:16:58,457 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:17:02,662 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:17:03,458 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:17:07,667 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:17:08,458 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:17:12,670 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:17:13,460 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:17:17,673 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:17:18,459 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:17:22,674 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:17:23,460 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:17:27,676 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:17:28,461 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:17:32,685 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:17:33,461 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:17:37,683 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:17:38,464 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:17:42,683 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:17:43,465 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:17:47,683 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:17:48,464 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:17:52,683 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:17:53,465 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:17:57,684 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:17:58,466 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:18:02,685 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:18:03,523 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:18:07,686 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:18:08,524 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:18:12,686 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:18:13,530 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:18:17,690 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:18:18,530 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:18:22,694 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:18:23,536 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:18:27,694 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:18:28,533 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:18:32,694 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:18:33,534 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:18:37,697 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:18:38,536 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:18:42,696 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:18:43,536 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:18:47,697 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:18:48,537 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:18:52,698 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:18:53,537 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:18:57,702 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:18:58,539 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:19:02,699 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:19:03,538 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:19:07,702 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:19:08,542 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:19:12,703 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:19:13,562 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:19:17,714 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:19:18,560 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:19:22,714 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:19:23,580 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:19:27,715 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:19:28,584 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:19:32,728 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:19:33,630 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:19:37,719 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:19:38,634 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:19:42,720 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:19:43,633 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:19:47,720 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:19:48,634 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:19:52,721 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:19:53,634 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:19:57,723 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:19:58,636 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:20:02,723 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:20:03,636 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:20:07,728 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:20:08,639 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:20:12,729 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:20:13,637 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:20:17,731 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:20:18,637 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:20:41,463 INFO 💓 Heartbeat listener active on 0.0.0.0:6000
+2026-06-26 11:20:41,465 INFO 🧠 NameNode listening on 0.0.0.0:5000
+2026-06-26 11:20:46,463 INFO ⚠ datanode1 is DOWN (no heartbeat)
+2026-06-26 11:20:46,464 INFO ⚠ datanode2 is DOWN (no heartbeat)
+2026-06-26 11:20:46,797 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:20:51,798 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:20:55,091 INFO 📞 New connection from ('127.0.0.1', 47356)
+2026-06-26 11:20:55,092 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:20:55,092 INFO 📩 Request: status from ('127.0.0.1', 47356)
+2026-06-26 11:20:55,093 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:20:55,096 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 47356)
+2026-06-26 11:20:55,096 INFO 🔒 Connection closed with ('127.0.0.1', 47356)
+2026-06-26 11:20:56,805 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:21:01,801 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:21:02,621 INFO 📞 New connection from ('127.0.0.1', 36486)
+2026-06-26 11:21:02,624 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:21:02,624 INFO 📩 Request: status from ('127.0.0.1', 36486)
+2026-06-26 11:21:02,624 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:21:02,625 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 36486)
+2026-06-26 11:21:02,626 INFO 🔒 Connection closed with ('127.0.0.1', 36486)
+2026-06-26 11:21:03,462 INFO 📞 New connection from ('127.0.0.1', 36498)
+2026-06-26 11:21:03,462 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:21:03,462 INFO 📩 Request: status from ('127.0.0.1', 36498)
+2026-06-26 11:21:03,462 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:21:03,463 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 36498)
+2026-06-26 11:21:03,463 INFO 🔒 Connection closed with ('127.0.0.1', 36498)
+2026-06-26 11:21:06,802 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:21:11,804 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:21:16,805 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:21:21,807 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:21:22,818 INFO 📞 New connection from ('127.0.0.1', 50114)
+2026-06-26 11:21:22,819 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:21:22,819 INFO 📩 Request: status from ('127.0.0.1', 50114)
+2026-06-26 11:21:22,819 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:21:22,819 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 50114)
+2026-06-26 11:21:22,819 INFO 🔒 Connection closed with ('127.0.0.1', 50114)
+2026-06-26 11:21:22,833 INFO 📞 New connection from ('127.0.0.1', 50122)
+2026-06-26 11:21:22,837 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:21:22,837 INFO 📩 Request: list from ('127.0.0.1', 50122)
+2026-06-26 11:21:22,837 INFO 📤 Sent list response (172 bytes) to ('127.0.0.1', 50122)
+2026-06-26 11:21:22,838 INFO 🔒 Connection closed with ('127.0.0.1', 50122)
+2026-06-26 11:21:26,783 INFO 📞 New connection from ('127.0.0.1', 50134)
+2026-06-26 11:21:26,787 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:21:26,788 INFO 📩 Request: status from ('127.0.0.1', 50134)
+2026-06-26 11:21:26,788 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:21:26,788 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 50134)
+2026-06-26 11:21:26,789 INFO 🔒 Connection closed with ('127.0.0.1', 50134)
+2026-06-26 11:21:26,808 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:21:26,860 INFO 📞 New connection from ('127.0.0.1', 50136)
+2026-06-26 11:21:26,861 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:21:26,861 INFO 📩 Request: status from ('127.0.0.1', 50136)
+2026-06-26 11:21:26,863 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:21:26,864 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 50136)
+2026-06-26 11:21:26,864 INFO 🔒 Connection closed with ('127.0.0.1', 50136)
+2026-06-26 11:21:26,893 INFO 📞 New connection from ('127.0.0.1', 50140)
+2026-06-26 11:21:26,893 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:21:26,894 INFO 📩 Request: list from ('127.0.0.1', 50140)
+2026-06-26 11:21:26,895 INFO 📤 Sent list response (172 bytes) to ('127.0.0.1', 50140)
+2026-06-26 11:21:26,895 INFO 🔒 Connection closed with ('127.0.0.1', 50140)
+2026-06-26 11:21:31,811 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:21:36,787 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:21:36,814 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:21:39,794 INFO 📞 New connection from ('127.0.0.1', 38024)
+2026-06-26 11:21:39,795 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:21:39,795 INFO 📩 Request: status from ('127.0.0.1', 38024)
+2026-06-26 11:21:39,796 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:21:39,798 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 38024)
+2026-06-26 11:21:39,798 INFO 🔒 Connection closed with ('127.0.0.1', 38024)
+2026-06-26 11:21:39,810 INFO 📞 New connection from ('127.0.0.1', 38028)
+2026-06-26 11:21:39,811 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:21:39,814 INFO 📩 Request: list from ('127.0.0.1', 38028)
+2026-06-26 11:21:39,815 INFO 📤 Sent list response (172 bytes) to ('127.0.0.1', 38028)
+2026-06-26 11:21:39,818 INFO 🔒 Connection closed with ('127.0.0.1', 38028)
+2026-06-26 11:21:41,787 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:21:41,815 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:21:41,925 INFO 📞 New connection from ('127.0.0.1', 38036)
+2026-06-26 11:21:41,926 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:21:41,926 INFO 📩 Request: status from ('127.0.0.1', 38036)
+2026-06-26 11:21:41,926 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:21:41,926 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 38036)
+2026-06-26 11:21:41,926 INFO 🔒 Connection closed with ('127.0.0.1', 38036)
+2026-06-26 11:21:42,004 INFO 📞 New connection from ('127.0.0.1', 38040)
+2026-06-26 11:21:42,005 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:21:42,008 INFO 📩 Request: status from ('127.0.0.1', 38040)
+2026-06-26 11:21:42,013 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:21:42,014 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 38040)
+2026-06-26 11:21:42,015 INFO 🔒 Connection closed with ('127.0.0.1', 38040)
+2026-06-26 11:21:42,031 INFO 📞 New connection from ('127.0.0.1', 38044)
+2026-06-26 11:21:42,037 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:21:42,037 INFO 📩 Request: list from ('127.0.0.1', 38044)
+2026-06-26 11:21:42,038 INFO 📤 Sent list response (172 bytes) to ('127.0.0.1', 38044)
+2026-06-26 11:21:42,038 INFO 🔒 Connection closed with ('127.0.0.1', 38044)
+2026-06-26 11:21:42,337 INFO 📞 New connection from ('127.0.0.1', 38056)
+2026-06-26 11:21:42,338 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:21:42,338 INFO 📩 Request: status from ('127.0.0.1', 38056)
+2026-06-26 11:21:42,338 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:21:42,340 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 38056)
+2026-06-26 11:21:42,341 INFO 🔒 Connection closed with ('127.0.0.1', 38056)
+2026-06-26 11:21:42,455 INFO 📞 New connection from ('127.0.0.1', 38064)
+2026-06-26 11:21:42,456 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:21:42,456 INFO 📩 Request: status from ('127.0.0.1', 38064)
+2026-06-26 11:21:42,457 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:21:42,457 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 38064)
+2026-06-26 11:21:42,459 INFO 🔒 Connection closed with ('127.0.0.1', 38064)
+2026-06-26 11:21:42,493 INFO 📞 New connection from ('127.0.0.1', 38080)
+2026-06-26 11:21:42,494 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:21:42,494 INFO 📩 Request: list from ('127.0.0.1', 38080)
+2026-06-26 11:21:42,495 INFO 📤 Sent list response (172 bytes) to ('127.0.0.1', 38080)
+2026-06-26 11:21:42,495 INFO 🔒 Connection closed with ('127.0.0.1', 38080)
+2026-06-26 11:21:42,628 INFO 📞 New connection from ('127.0.0.1', 38092)
+2026-06-26 11:21:42,642 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:21:42,643 INFO 📩 Request: status from ('127.0.0.1', 38092)
+2026-06-26 11:21:42,643 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:21:42,644 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 38092)
+2026-06-26 11:21:42,647 INFO 🔒 Connection closed with ('127.0.0.1', 38092)
+2026-06-26 11:21:42,778 INFO 📞 New connection from ('127.0.0.1', 38098)
+2026-06-26 11:21:42,806 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:21:42,806 INFO 📩 Request: status from ('127.0.0.1', 38098)
+2026-06-26 11:21:42,806 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:21:42,810 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 38098)
+2026-06-26 11:21:42,811 INFO 🔒 Connection closed with ('127.0.0.1', 38098)
+2026-06-26 11:21:42,852 INFO 📞 New connection from ('127.0.0.1', 38104)
+2026-06-26 11:21:42,855 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:21:42,856 INFO 📩 Request: list from ('127.0.0.1', 38104)
+2026-06-26 11:21:42,858 INFO 📤 Sent list response (172 bytes) to ('127.0.0.1', 38104)
+2026-06-26 11:21:42,859 INFO 🔒 Connection closed with ('127.0.0.1', 38104)
+2026-06-26 11:21:46,788 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:21:46,816 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:21:51,790 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:21:51,817 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:21:54,996 INFO 📞 New connection from ('127.0.0.1', 60556)
+2026-06-26 11:21:55,005 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:21:55,006 INFO 📩 Request: status from ('127.0.0.1', 60556)
+2026-06-26 11:21:55,006 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:21:55,007 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 60556)
+2026-06-26 11:21:55,010 INFO 🔒 Connection closed with ('127.0.0.1', 60556)
+2026-06-26 11:21:55,023 INFO 📞 New connection from ('127.0.0.1', 60562)
+2026-06-26 11:21:55,032 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:21:55,033 INFO 📩 Request: list from ('127.0.0.1', 60562)
+2026-06-26 11:21:55,033 INFO 📤 Sent list response (172 bytes) to ('127.0.0.1', 60562)
+2026-06-26 11:21:55,037 INFO 🔒 Connection closed with ('127.0.0.1', 60562)
+2026-06-26 11:21:56,316 INFO 📞 New connection from ('127.0.0.1', 60572)
+2026-06-26 11:21:56,323 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:21:56,324 INFO 📩 Request: status from ('127.0.0.1', 60572)
+2026-06-26 11:21:56,326 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:21:56,326 INFO 📤 Sent status response (504 bytes) to ('127.0.0.1', 60572)
+2026-06-26 11:21:56,326 INFO 🔒 Connection closed with ('127.0.0.1', 60572)
+2026-06-26 11:21:56,333 INFO 📞 New connection from ('127.0.0.1', 60588)
+2026-06-26 11:21:56,343 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:21:56,343 INFO 📩 Request: list from ('127.0.0.1', 60588)
+2026-06-26 11:21:56,344 INFO 📤 Sent list response (172 bytes) to ('127.0.0.1', 60588)
+2026-06-26 11:21:56,345 INFO 🔒 Connection closed with ('127.0.0.1', 60588)
+2026-06-26 11:21:56,353 INFO 📞 New connection from ('127.0.0.1', 60604)
+2026-06-26 11:21:56,356 INFO 📥 Received 337385 bytes total (0.32 MB)
+2026-06-26 11:21:56,357 INFO 📩 Request: upload from ('127.0.0.1', 60604)
+2026-06-26 11:21:56,357 INFO 🔼 Starting upload for Oversampling Documentation.pdf
+2026-06-26 11:21:56,357 INFO 📦 Decoding base64 content (337300 chars)
+2026-06-26 11:21:56,358 INFO 📊 File size: 252975 bytes (0.24 MB)
+2026-06-26 11:21:56,359 INFO 📦 File will be split into 1 chunks (2.0MB each)
+2026-06-26 11:21:56,359 INFO 📤 Chunk 1/1: Oversampling Documentation.pdf_part0 (252975 bytes)
+2026-06-26 11:21:56,360 INFO   → Storing on datanode1...
+2026-06-26 11:21:56,364 INFO 📤 Sending 329 KB to datanode1
+2026-06-26 11:21:56,373 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:21:56,374 INFO ✅ Stored Oversampling Documentation.pdf_part0 on datanode1
+2026-06-26 11:21:56,377 INFO   ✅ datanode1
+2026-06-26 11:21:56,377 INFO   → Storing on datanode2...
+2026-06-26 11:21:56,381 INFO 📤 Sending 329 KB to datanode2
+2026-06-26 11:21:56,388 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:21:56,389 INFO ✅ Stored Oversampling Documentation.pdf_part0 on datanode2
+2026-06-26 11:21:56,392 INFO   ✅ datanode2
+2026-06-26 11:21:56,392 INFO ✅ Chunk 1/1 stored on 2 node(s)
+2026-06-26 11:21:56,400 INFO ✅✅ UPLOAD COMPLETE: Oversampling Documentation.pdf in 1 chunks
+2026-06-26 11:21:56,404 INFO 📤 Sent upload response (35 bytes) to ('127.0.0.1', 60604)
+2026-06-26 11:21:56,406 INFO 🔒 Connection closed with ('127.0.0.1', 60604)
+2026-06-26 11:21:56,790 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:21:56,818 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:22:01,066 INFO 📞 New connection from ('127.0.0.1', 58030)
+2026-06-26 11:22:01,067 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:22:01,068 INFO 📩 Request: status from ('127.0.0.1', 58030)
+2026-06-26 11:22:01,072 INFO ✅ Status: 2 files, 2 nodes
+2026-06-26 11:22:01,072 INFO 📤 Sent status response (873 bytes) to ('127.0.0.1', 58030)
+2026-06-26 11:22:01,072 INFO 🔒 Connection closed with ('127.0.0.1', 58030)
+2026-06-26 11:22:01,094 INFO 📞 New connection from ('127.0.0.1', 58042)
+2026-06-26 11:22:01,095 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:22:01,096 INFO 📩 Request: list from ('127.0.0.1', 58042)
+2026-06-26 11:22:01,097 INFO 📤 Sent list response (325 bytes) to ('127.0.0.1', 58042)
+2026-06-26 11:22:01,097 INFO 🔒 Connection closed with ('127.0.0.1', 58042)
+2026-06-26 11:22:01,790 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:22:01,818 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:22:03,957 INFO 📞 New connection from ('127.0.0.1', 58054)
+2026-06-26 11:22:03,957 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:22:03,958 INFO 📩 Request: status from ('127.0.0.1', 58054)
+2026-06-26 11:22:03,958 INFO ✅ Status: 2 files, 2 nodes
+2026-06-26 11:22:03,958 INFO 📤 Sent status response (873 bytes) to ('127.0.0.1', 58054)
+2026-06-26 11:22:03,958 INFO 🔒 Connection closed with ('127.0.0.1', 58054)
+2026-06-26 11:22:04,007 INFO 📞 New connection from ('127.0.0.1', 58056)
+2026-06-26 11:22:04,008 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:22:04,009 INFO 📩 Request: status from ('127.0.0.1', 58056)
+2026-06-26 11:22:04,009 INFO ✅ Status: 2 files, 2 nodes
+2026-06-26 11:22:04,010 INFO 📤 Sent status response (873 bytes) to ('127.0.0.1', 58056)
+2026-06-26 11:22:04,011 INFO 🔒 Connection closed with ('127.0.0.1', 58056)
+2026-06-26 11:22:04,021 INFO 📞 New connection from ('127.0.0.1', 58062)
+2026-06-26 11:22:04,022 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:22:04,022 INFO 📩 Request: list from ('127.0.0.1', 58062)
+2026-06-26 11:22:04,022 INFO 📤 Sent list response (325 bytes) to ('127.0.0.1', 58062)
+2026-06-26 11:22:04,023 INFO 🔒 Connection closed with ('127.0.0.1', 58062)
+2026-06-26 11:22:04,446 INFO 📞 New connection from ('127.0.0.1', 58078)
+2026-06-26 11:22:04,446 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:22:04,446 INFO 📩 Request: status from ('127.0.0.1', 58078)
+2026-06-26 11:22:04,447 INFO ✅ Status: 2 files, 2 nodes
+2026-06-26 11:22:04,447 INFO 📤 Sent status response (873 bytes) to ('127.0.0.1', 58078)
+2026-06-26 11:22:04,447 INFO 🔒 Connection closed with ('127.0.0.1', 58078)
+2026-06-26 11:22:04,514 INFO 📞 New connection from ('127.0.0.1', 58090)
+2026-06-26 11:22:04,517 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:22:04,518 INFO 📩 Request: status from ('127.0.0.1', 58090)
+2026-06-26 11:22:04,518 INFO ✅ Status: 2 files, 2 nodes
+2026-06-26 11:22:04,524 INFO 📤 Sent status response (873 bytes) to ('127.0.0.1', 58090)
+2026-06-26 11:22:04,525 INFO 🔒 Connection closed with ('127.0.0.1', 58090)
+2026-06-26 11:22:04,544 INFO 📞 New connection from ('127.0.0.1', 58098)
+2026-06-26 11:22:04,548 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:22:04,550 INFO 📩 Request: list from ('127.0.0.1', 58098)
+2026-06-26 11:22:04,550 INFO 📤 Sent list response (325 bytes) to ('127.0.0.1', 58098)
+2026-06-26 11:22:04,551 INFO 🔒 Connection closed with ('127.0.0.1', 58098)
+2026-06-26 11:22:06,792 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:22:06,820 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:22:11,792 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:22:11,821 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:22:16,793 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:22:16,823 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:22:21,794 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:22:21,824 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:22:25,182 INFO 📞 New connection from ('127.0.0.1', 46964)
+2026-06-26 11:22:25,184 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:22:25,184 INFO 📩 Request: status from ('127.0.0.1', 46964)
+2026-06-26 11:22:25,185 INFO ✅ Status: 2 files, 2 nodes
+2026-06-26 11:22:25,185 INFO 📤 Sent status response (873 bytes) to ('127.0.0.1', 46964)
+2026-06-26 11:22:25,185 INFO 🔒 Connection closed with ('127.0.0.1', 46964)
+2026-06-26 11:22:25,200 INFO 📞 New connection from ('127.0.0.1', 46980)
+2026-06-26 11:22:25,216 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:22:25,216 INFO 📩 Request: list from ('127.0.0.1', 46980)
+2026-06-26 11:22:25,217 INFO 📤 Sent list response (325 bytes) to ('127.0.0.1', 46980)
+2026-06-26 11:22:25,217 INFO 🔒 Connection closed with ('127.0.0.1', 46980)
+2026-06-26 11:22:25,311 INFO 📞 New connection from ('127.0.0.1', 46984)
+2026-06-26 11:22:25,315 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:22:25,315 INFO 📩 Request: status from ('127.0.0.1', 46984)
+2026-06-26 11:22:25,316 INFO ✅ Status: 2 files, 2 nodes
+2026-06-26 11:22:25,316 INFO 📤 Sent status response (873 bytes) to ('127.0.0.1', 46984)
+2026-06-26 11:22:25,316 INFO 🔒 Connection closed with ('127.0.0.1', 46984)
+2026-06-26 11:22:25,328 INFO 📞 New connection from ('127.0.0.1', 46986)
+2026-06-26 11:22:25,328 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:22:25,329 INFO 📩 Request: list from ('127.0.0.1', 46986)
+2026-06-26 11:22:25,329 INFO 📤 Sent list response (325 bytes) to ('127.0.0.1', 46986)
+2026-06-26 11:22:25,329 INFO 🔒 Connection closed with ('127.0.0.1', 46986)
+2026-06-26 11:22:25,353 INFO 📞 New connection from ('127.0.0.1', 46992)
+2026-06-26 11:22:25,354 INFO 📥 Received 76 bytes total (0.00 MB)
+2026-06-26 11:22:25,354 INFO 📩 Request: delete from ('127.0.0.1', 46992)
+2026-06-26 11:22:25,356 INFO 📤 Sent delete response (44 bytes) to ('127.0.0.1', 46992)
+2026-06-26 11:22:25,356 INFO 🔒 Connection closed with ('127.0.0.1', 46992)
+2026-06-26 11:22:26,794 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:22:26,827 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:22:30,312 INFO 📞 New connection from ('127.0.0.1', 55430)
+2026-06-26 11:22:30,313 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:22:30,314 INFO 📩 Request: status from ('127.0.0.1', 55430)
+2026-06-26 11:22:30,314 INFO ✅ Status: 2 files, 2 nodes
+2026-06-26 11:22:30,314 INFO 📤 Sent status response (873 bytes) to ('127.0.0.1', 55430)
+2026-06-26 11:22:30,315 INFO 🔒 Connection closed with ('127.0.0.1', 55430)
+2026-06-26 11:22:30,341 INFO 📞 New connection from ('127.0.0.1', 55440)
+2026-06-26 11:22:30,342 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:22:30,343 INFO 📩 Request: list from ('127.0.0.1', 55440)
+2026-06-26 11:22:30,343 INFO 📤 Sent list response (325 bytes) to ('127.0.0.1', 55440)
+2026-06-26 11:22:30,344 INFO 🔒 Connection closed with ('127.0.0.1', 55440)
+2026-06-26 11:22:30,411 INFO 📞 New connection from ('127.0.0.1', 55450)
+2026-06-26 11:22:30,412 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:22:30,414 INFO 📩 Request: status from ('127.0.0.1', 55450)
+2026-06-26 11:22:30,415 INFO ✅ Status: 2 files, 2 nodes
+2026-06-26 11:22:30,415 INFO 📤 Sent status response (873 bytes) to ('127.0.0.1', 55450)
+2026-06-26 11:22:30,415 INFO 🔒 Connection closed with ('127.0.0.1', 55450)
+2026-06-26 11:22:30,445 INFO 📞 New connection from ('127.0.0.1', 55466)
+2026-06-26 11:22:30,447 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:22:30,448 INFO 📩 Request: list from ('127.0.0.1', 55466)
+2026-06-26 11:22:30,448 INFO 📤 Sent list response (325 bytes) to ('127.0.0.1', 55466)
+2026-06-26 11:22:30,448 INFO 🔒 Connection closed with ('127.0.0.1', 55466)
+2026-06-26 11:22:30,468 INFO 📞 New connection from ('127.0.0.1', 55474)
+2026-06-26 11:22:30,472 INFO 📥 Received 75 bytes total (0.00 MB)
+2026-06-26 11:22:30,473 INFO 📩 Request: delete from ('127.0.0.1', 55474)
+2026-06-26 11:22:30,475 INFO 📥 Received 21 bytes total (0.00 MB)
+2026-06-26 11:22:30,477 INFO 📤 Sent delete response (21 bytes) to ('127.0.0.1', 55474)
+2026-06-26 11:22:30,477 INFO 🔒 Connection closed with ('127.0.0.1', 55474)
+2026-06-26 11:22:31,795 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:22:31,826 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:22:33,943 INFO 📞 New connection from ('127.0.0.1', 55486)
+2026-06-26 11:22:33,944 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:22:33,945 INFO 📩 Request: status from ('127.0.0.1', 55486)
+2026-06-26 11:22:33,946 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:22:33,948 INFO 📤 Sent status response (559 bytes) to ('127.0.0.1', 55486)
+2026-06-26 11:22:33,952 INFO 🔒 Connection closed with ('127.0.0.1', 55486)
+2026-06-26 11:22:33,963 INFO 📞 New connection from ('127.0.0.1', 55488)
+2026-06-26 11:22:33,965 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:22:33,966 INFO 📩 Request: list from ('127.0.0.1', 55488)
+2026-06-26 11:22:33,966 INFO 📤 Sent list response (180 bytes) to ('127.0.0.1', 55488)
+2026-06-26 11:22:33,967 INFO 🔒 Connection closed with ('127.0.0.1', 55488)
+2026-06-26 11:22:36,042 INFO 📞 New connection from ('127.0.0.1', 55494)
+2026-06-26 11:22:36,042 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:22:36,042 INFO 📩 Request: status from ('127.0.0.1', 55494)
+2026-06-26 11:22:36,043 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:22:36,043 INFO 📤 Sent status response (559 bytes) to ('127.0.0.1', 55494)
+2026-06-26 11:22:36,043 INFO 🔒 Connection closed with ('127.0.0.1', 55494)
+2026-06-26 11:22:36,079 INFO 📞 New connection from ('127.0.0.1', 55496)
+2026-06-26 11:22:36,079 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:22:36,080 INFO 📩 Request: status from ('127.0.0.1', 55496)
+2026-06-26 11:22:36,080 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:22:36,080 INFO 📤 Sent status response (559 bytes) to ('127.0.0.1', 55496)
+2026-06-26 11:22:36,080 INFO 🔒 Connection closed with ('127.0.0.1', 55496)
+2026-06-26 11:22:36,093 INFO 📞 New connection from ('127.0.0.1', 55502)
+2026-06-26 11:22:36,094 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:22:36,094 INFO 📩 Request: list from ('127.0.0.1', 55502)
+2026-06-26 11:22:36,095 INFO 📤 Sent list response (180 bytes) to ('127.0.0.1', 55502)
+2026-06-26 11:22:36,095 INFO 🔒 Connection closed with ('127.0.0.1', 55502)
+2026-06-26 11:22:36,796 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:22:36,827 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:22:41,797 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:22:41,827 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:22:46,799 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:22:46,828 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:22:51,799 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:22:51,829 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:22:56,799 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:22:56,829 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:23:01,799 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:23:01,831 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:23:06,800 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:23:06,831 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:23:11,801 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:23:11,832 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:23:16,801 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:23:16,834 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:23:21,802 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:23:21,835 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:23:26,802 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:23:26,834 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:23:31,803 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:23:31,842 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:23:36,805 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:23:36,843 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:23:41,807 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:23:41,844 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:23:46,884 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:23:46,888 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:23:51,903 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:23:51,908 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:23:56,906 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:23:56,910 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:24:01,932 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:24:01,933 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:24:06,910 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:24:06,911 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:24:11,910 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:24:11,913 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:24:16,915 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:24:16,916 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:24:21,915 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:24:21,918 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:24:26,916 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:24:26,922 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:24:31,920 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:24:31,924 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:24:36,916 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:24:36,921 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:24:41,920 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:24:41,926 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:24:46,922 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:24:46,925 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:24:51,921 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:24:51,923 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:24:57,044 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:25:34,922 INFO 💓 Heartbeat listener active on 0.0.0.0:6000
+2026-06-26 11:25:34,925 INFO 🧠 NameNode listening on 0.0.0.0:5000
+2026-06-26 11:25:39,925 INFO ⚠ datanode1 is DOWN (no heartbeat)
+2026-06-26 11:25:39,926 INFO ⚠ datanode2 is DOWN (no heartbeat)
+2026-06-26 11:25:52,930 INFO 📞 New connection from ('127.0.0.1', 55880)
+2026-06-26 11:25:52,931 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:25:52,931 INFO 📩 Request: status from ('127.0.0.1', 55880)
+2026-06-26 11:25:52,931 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:25:52,933 INFO 📤 Sent status response (698 bytes) to ('127.0.0.1', 55880)
+2026-06-26 11:25:52,934 INFO 🔒 Connection closed with ('127.0.0.1', 55880)
+2026-06-26 11:25:52,953 INFO 📞 New connection from ('127.0.0.1', 55888)
+2026-06-26 11:25:52,954 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:25:52,956 INFO 📩 Request: list from ('127.0.0.1', 55888)
+2026-06-26 11:25:52,958 INFO 📤 Sent list response (180 bytes) to ('127.0.0.1', 55888)
+2026-06-26 11:25:52,960 INFO 🔒 Connection closed with ('127.0.0.1', 55888)
+2026-06-26 11:25:54,962 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:25:58,220 INFO 📞 New connection from ('127.0.0.1', 44090)
+2026-06-26 11:25:58,225 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:25:58,227 INFO 📩 Request: status from ('127.0.0.1', 44090)
+2026-06-26 11:25:58,231 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:25:58,232 INFO 📤 Sent status response (709 bytes) to ('127.0.0.1', 44090)
+2026-06-26 11:25:58,232 INFO 🔒 Connection closed with ('127.0.0.1', 44090)
+2026-06-26 11:25:58,241 INFO 📞 New connection from ('127.0.0.1', 44104)
+2026-06-26 11:25:58,242 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:25:58,242 INFO 📩 Request: list from ('127.0.0.1', 44104)
+2026-06-26 11:25:58,242 INFO 📤 Sent list response (180 bytes) to ('127.0.0.1', 44104)
+2026-06-26 11:25:58,245 INFO 🔒 Connection closed with ('127.0.0.1', 44104)
+2026-06-26 11:25:58,428 INFO 📞 New connection from ('127.0.0.1', 44116)
+2026-06-26 11:25:58,429 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:25:58,429 INFO 📩 Request: status from ('127.0.0.1', 44116)
+2026-06-26 11:25:58,429 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:25:58,430 INFO 📤 Sent status response (709 bytes) to ('127.0.0.1', 44116)
+2026-06-26 11:25:58,431 INFO 🔒 Connection closed with ('127.0.0.1', 44116)
+2026-06-26 11:25:58,445 INFO 📞 New connection from ('127.0.0.1', 44118)
+2026-06-26 11:25:58,448 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:25:58,448 INFO 📩 Request: list from ('127.0.0.1', 44118)
+2026-06-26 11:25:58,450 INFO 📤 Sent list response (180 bytes) to ('127.0.0.1', 44118)
+2026-06-26 11:25:58,450 INFO 🔒 Connection closed with ('127.0.0.1', 44118)
+2026-06-26 11:26:00,014 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:26:05,016 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:26:10,031 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:26:15,049 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:26:20,050 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:26:25,050 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:26:30,051 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:26:34,847 INFO 📞 New connection from ('127.0.0.1', 39502)
+2026-06-26 11:26:34,848 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:26:34,848 INFO 📩 Request: status from ('127.0.0.1', 39502)
+2026-06-26 11:26:34,848 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:26:34,849 INFO 📤 Sent status response (709 bytes) to ('127.0.0.1', 39502)
+2026-06-26 11:26:34,851 INFO 🔒 Connection closed with ('127.0.0.1', 39502)
+2026-06-26 11:26:34,886 INFO 📞 New connection from ('127.0.0.1', 39518)
+2026-06-26 11:26:34,888 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:26:34,889 INFO 📩 Request: list from ('127.0.0.1', 39518)
+2026-06-26 11:26:34,890 INFO 📤 Sent list response (180 bytes) to ('127.0.0.1', 39518)
+2026-06-26 11:26:34,890 INFO 🔒 Connection closed with ('127.0.0.1', 39518)
+2026-06-26 11:26:35,052 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:26:35,880 INFO 📞 New connection from ('127.0.0.1', 39530)
+2026-06-26 11:26:35,888 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:26:35,889 INFO 📩 Request: status from ('127.0.0.1', 39530)
+2026-06-26 11:26:35,889 INFO ✅ Status: 1 files, 2 nodes
+2026-06-26 11:26:35,890 INFO 📤 Sent status response (709 bytes) to ('127.0.0.1', 39530)
+2026-06-26 11:26:35,890 INFO 🔒 Connection closed with ('127.0.0.1', 39530)
+2026-06-26 11:26:35,931 INFO 📞 New connection from ('127.0.0.1', 39536)
+2026-06-26 11:26:35,938 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:26:35,943 INFO 📩 Request: list from ('127.0.0.1', 39536)
+2026-06-26 11:26:35,944 INFO 📤 Sent list response (180 bytes) to ('127.0.0.1', 39536)
+2026-06-26 11:26:35,944 INFO 🔒 Connection closed with ('127.0.0.1', 39536)
+2026-06-26 11:26:35,991 INFO 📞 New connection from ('127.0.0.1', 39540)
+2026-06-26 11:26:35,997 INFO 📥 Received 1303246 bytes total (1.24 MB)
+2026-06-26 11:26:36,008 INFO 📩 Request: upload from ('127.0.0.1', 39540)
+2026-06-26 11:26:36,009 INFO 🔼 Starting upload for smote.ipynb
+2026-06-26 11:26:36,009 INFO 📦 Decoding base64 content (1303180 chars)
+2026-06-26 11:26:36,021 INFO 📊 File size: 977383 bytes (0.93 MB)
+2026-06-26 11:26:36,021 INFO 📦 File will be split into 1 chunks (2.0MB each)
+2026-06-26 11:26:36,032 INFO 📤 Chunk 1/1: smote.ipynb_part0 (977383 bytes)
+2026-06-26 11:26:36,033 INFO   → Storing on datanode1...
+2026-06-26 11:26:36,051 INFO 📤 Sending 1272 KB to datanode1
+2026-06-26 11:26:36,108 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:26:36,109 INFO ✅ Stored smote.ipynb_part0 on datanode1
+2026-06-26 11:26:36,109 INFO   ✅ datanode1
+2026-06-26 11:26:36,109 INFO ✅ Chunk 1/1 stored on 1 node(s)
+2026-06-26 11:26:36,112 INFO ✅✅ UPLOAD COMPLETE: smote.ipynb in 1 chunks
+2026-06-26 11:26:36,114 INFO 📤 Sent upload response (35 bytes) to ('127.0.0.1', 39540)
+2026-06-26 11:26:36,119 INFO 🔒 Connection closed with ('127.0.0.1', 39540)
+2026-06-26 11:26:39,662 INFO 📞 New connection from ('127.0.0.1', 55002)
+2026-06-26 11:26:39,666 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:26:39,667 INFO 📩 Request: status from ('127.0.0.1', 55002)
+2026-06-26 11:26:39,668 INFO ✅ Status: 2 files, 2 nodes
+2026-06-26 11:26:39,677 INFO 📤 Sent status response (1027 bytes) to ('127.0.0.1', 55002)
+2026-06-26 11:26:39,677 INFO 🔒 Connection closed with ('127.0.0.1', 55002)
+2026-06-26 11:26:39,700 INFO 📞 New connection from ('127.0.0.1', 55004)
+2026-06-26 11:26:39,703 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:26:39,705 INFO 📩 Request: list from ('127.0.0.1', 55004)
+2026-06-26 11:26:39,706 INFO 📤 Sent list response (314 bytes) to ('127.0.0.1', 55004)
+2026-06-26 11:26:39,707 INFO 🔒 Connection closed with ('127.0.0.1', 55004)
+2026-06-26 11:26:40,052 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:26:45,054 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:26:50,055 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:26:55,065 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:27:00,068 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:27:05,071 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:27:10,079 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:27:15,073 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:27:20,075 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:27:25,083 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:27:30,077 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:27:35,077 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:27:40,077 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:27:45,077 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:27:50,082 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:27:55,081 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:28:00,086 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:28:05,089 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:28:10,090 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:28:15,091 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:28:20,092 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:28:25,116 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:28:30,116 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:28:35,119 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:28:40,129 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:28:45,135 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:28:50,135 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:28:55,136 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:29:00,138 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:29:05,138 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:29:10,138 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:29:15,139 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:29:20,140 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:29:25,141 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:29:30,142 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:29:35,143 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:29:40,144 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:29:45,144 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:29:50,144 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:29:55,145 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:30:00,146 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:30:05,147 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:30:10,147 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:30:15,149 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:30:20,151 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:30:25,151 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:30:30,154 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:30:35,160 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:30:40,161 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:31:14,430 INFO 💓 Heartbeat listener active on 0.0.0.0:6000
+2026-06-26 11:31:14,432 INFO 🧠 NameNode listening on 0.0.0.0:5000
+2026-06-26 11:31:19,430 INFO ⚠ datanode1 is DOWN (no heartbeat)
+2026-06-26 11:31:19,435 INFO ⚠ No candidates to re-replicate Oversampling Documentation.pdf_part0
+2026-06-26 11:31:19,436 INFO ⚠ No candidates to re-replicate smote.ipynb_part0
+2026-06-26 11:31:29,437 INFO ⚠ No candidates to re-replicate Oversampling Documentation.pdf_part0
+2026-06-26 11:31:29,437 INFO ⚠ No candidates to re-replicate smote.ipynb_part0
+2026-06-26 11:31:30,020 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:31:35,019 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:31:39,438 INFO ⚠ No candidates to re-replicate Oversampling Documentation.pdf_part0
+2026-06-26 11:31:39,438 INFO ⚠ No candidates to re-replicate smote.ipynb_part0
+2026-06-26 11:31:39,788 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:31:40,019 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:31:44,789 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:31:45,019 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:31:49,790 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:31:50,021 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:31:54,794 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:31:55,027 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:31:59,451 INFO ⏱ Timeout after receiving 0 bytes
+2026-06-26 11:31:59,454 INFO 📥 Received 0 bytes total (0.00 MB)
+2026-06-26 11:31:59,455 INFO ⚠ Could not read smote.ipynb_part0 from datanode1
+2026-06-26 11:31:59,797 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:32:00,028 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:32:04,798 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:32:05,031 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:32:09,799 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:32:10,095 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:32:14,799 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:32:15,084 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:32:19,465 INFO ⏱ Timeout after receiving 0 bytes
+2026-06-26 11:32:19,467 INFO 📥 Received 0 bytes total (0.00 MB)
+2026-06-26 11:32:19,468 INFO ⚠ Could not read smote.ipynb_part0 from datanode1
+2026-06-26 11:32:19,802 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:32:20,089 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:32:24,805 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:32:25,090 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:32:29,890 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:32:30,093 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:32:34,902 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:32:35,094 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:32:35,995 INFO 📞 New connection from ('127.0.0.1', 60672)
+2026-06-26 11:32:35,995 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:32:35,995 INFO 📩 Request: status from ('127.0.0.1', 60672)
+2026-06-26 11:32:35,996 INFO ✅ Status: 2 files, 2 nodes
+2026-06-26 11:32:36,000 INFO 📤 Sent status response (877 bytes) to ('127.0.0.1', 60672)
+2026-06-26 11:32:36,002 INFO 🔒 Connection closed with ('127.0.0.1', 60672)
+2026-06-26 11:32:36,018 INFO 📞 New connection from ('127.0.0.1', 60682)
+2026-06-26 11:32:36,019 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:32:36,023 INFO 📩 Request: list from ('127.0.0.1', 60682)
+2026-06-26 11:32:36,024 INFO 📤 Sent list response (314 bytes) to ('127.0.0.1', 60682)
+2026-06-26 11:32:36,043 INFO 🔒 Connection closed with ('127.0.0.1', 60682)
+2026-06-26 11:32:39,480 INFO ⏱ Timeout after receiving 0 bytes
+2026-06-26 11:32:39,481 INFO 📥 Received 0 bytes total (0.00 MB)
+2026-06-26 11:32:39,483 INFO ⚠ Could not read smote.ipynb_part0 from datanode1
+2026-06-26 11:32:39,906 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:32:40,095 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:32:44,908 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:32:45,097 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:32:49,918 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:32:50,118 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:32:54,917 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:32:55,118 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:32:59,498 INFO ⏱ Timeout after receiving 0 bytes
+2026-06-26 11:32:59,500 INFO 📥 Received 0 bytes total (0.00 MB)
+2026-06-26 11:32:59,501 INFO ⚠ Could not read smote.ipynb_part0 from datanode1
+2026-06-26 11:32:59,919 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:33:00,118 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:33:04,921 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:33:05,118 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:33:09,555 INFO 📞 New connection from ('127.0.0.1', 34406)
+2026-06-26 11:33:09,555 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:33:09,555 INFO 📩 Request: status from ('127.0.0.1', 34406)
+2026-06-26 11:33:09,555 INFO ✅ Status: 2 files, 2 nodes
+2026-06-26 11:33:09,556 INFO 📤 Sent status response (877 bytes) to ('127.0.0.1', 34406)
+2026-06-26 11:33:09,556 INFO 🔒 Connection closed with ('127.0.0.1', 34406)
+2026-06-26 11:33:09,579 INFO 📞 New connection from ('127.0.0.1', 34418)
+2026-06-26 11:33:09,582 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:33:09,582 INFO 📩 Request: list from ('127.0.0.1', 34418)
+2026-06-26 11:33:09,584 INFO 📤 Sent list response (314 bytes) to ('127.0.0.1', 34418)
+2026-06-26 11:33:09,590 INFO 🔒 Connection closed with ('127.0.0.1', 34418)
+2026-06-26 11:33:09,922 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:33:10,119 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:33:10,839 INFO 📞 New connection from ('127.0.0.1', 34430)
+2026-06-26 11:33:10,841 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:33:10,841 INFO 📩 Request: status from ('127.0.0.1', 34430)
+2026-06-26 11:33:10,841 INFO ✅ Status: 2 files, 2 nodes
+2026-06-26 11:33:10,842 INFO 📤 Sent status response (877 bytes) to ('127.0.0.1', 34430)
+2026-06-26 11:33:10,842 INFO 🔒 Connection closed with ('127.0.0.1', 34430)
+2026-06-26 11:33:10,864 INFO 📞 New connection from ('127.0.0.1', 34438)
+2026-06-26 11:33:10,865 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:33:10,865 INFO 📩 Request: list from ('127.0.0.1', 34438)
+2026-06-26 11:33:10,866 INFO 📤 Sent list response (314 bytes) to ('127.0.0.1', 34438)
+2026-06-26 11:33:10,867 INFO 🔒 Connection closed with ('127.0.0.1', 34438)
+2026-06-26 11:33:10,935 INFO 📞 New connection from ('127.0.0.1', 34452)
+2026-06-26 11:33:11,013 INFO 📥 Received 16777384 bytes total (16.00 MB)
+2026-06-26 11:33:11,048 INFO 📩 Request: upload from ('127.0.0.1', 34452)
+2026-06-26 11:33:11,048 INFO 🔼 Starting upload for DA_U1.pdf
+2026-06-26 11:33:11,049 INFO 📦 Decoding base64 content (16777320 chars)
+2026-06-26 11:33:11,101 INFO 📊 File size: 12582990 bytes (12.00 MB)
+2026-06-26 11:33:11,104 INFO 📦 File will be split into 7 chunks (2.0MB each)
+2026-06-26 11:33:11,110 INFO 📤 Chunk 1/7: DA_U1.pdf_part0 (2097152 bytes)
+2026-06-26 11:33:11,110 INFO   → Storing on datanode1...
+2026-06-26 11:33:11,119 INFO 📤 Sending 2730 KB to datanode1
+2026-06-26 11:33:11,139 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:33:11,139 INFO ✅ Stored DA_U1.pdf_part0 on datanode1
+2026-06-26 11:33:11,139 INFO   ✅ datanode1
+2026-06-26 11:33:11,139 INFO   → Storing on datanode2...
+2026-06-26 11:33:11,147 INFO 📤 Sending 2730 KB to datanode2
+2026-06-26 11:33:11,167 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:33:11,167 INFO ✅ Stored DA_U1.pdf_part0 on datanode2
+2026-06-26 11:33:11,168 INFO   ✅ datanode2
+2026-06-26 11:33:11,168 INFO ✅ Chunk 1/7 stored on 2 node(s)
+2026-06-26 11:33:11,173 INFO 📤 Chunk 2/7: DA_U1.pdf_part1 (2097152 bytes)
+2026-06-26 11:33:11,173 INFO   → Storing on datanode1...
+2026-06-26 11:33:11,180 INFO 📤 Sending 2730 KB to datanode1
+2026-06-26 11:33:11,212 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:33:11,212 INFO ✅ Stored DA_U1.pdf_part1 on datanode1
+2026-06-26 11:33:11,213 INFO   ✅ datanode1
+2026-06-26 11:33:11,214 INFO   → Storing on datanode2...
+2026-06-26 11:33:11,221 INFO 📤 Sending 2730 KB to datanode2
+2026-06-26 11:33:11,242 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:33:11,242 INFO ✅ Stored DA_U1.pdf_part1 on datanode2
+2026-06-26 11:33:11,243 INFO   ✅ datanode2
+2026-06-26 11:33:11,243 INFO ✅ Chunk 2/7 stored on 2 node(s)
+2026-06-26 11:33:11,248 INFO 📤 Chunk 3/7: DA_U1.pdf_part2 (2097152 bytes)
+2026-06-26 11:33:11,248 INFO   → Storing on datanode1...
+2026-06-26 11:33:11,255 INFO 📤 Sending 2730 KB to datanode1
+2026-06-26 11:33:11,284 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:33:11,284 INFO ✅ Stored DA_U1.pdf_part2 on datanode1
+2026-06-26 11:33:11,285 INFO   ✅ datanode1
+2026-06-26 11:33:11,285 INFO   → Storing on datanode2...
+2026-06-26 11:33:11,291 INFO 📤 Sending 2730 KB to datanode2
+2026-06-26 11:33:11,307 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:33:11,308 INFO ✅ Stored DA_U1.pdf_part2 on datanode2
+2026-06-26 11:33:11,308 INFO   ✅ datanode2
+2026-06-26 11:33:11,309 INFO ✅ Chunk 3/7 stored on 2 node(s)
+2026-06-26 11:33:11,314 INFO 📤 Chunk 4/7: DA_U1.pdf_part3 (2097152 bytes)
+2026-06-26 11:33:11,314 INFO   → Storing on datanode1...
+2026-06-26 11:33:11,320 INFO 📤 Sending 2730 KB to datanode1
+2026-06-26 11:33:11,344 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:33:11,345 INFO ✅ Stored DA_U1.pdf_part3 on datanode1
+2026-06-26 11:33:11,345 INFO   ✅ datanode1
+2026-06-26 11:33:11,345 INFO   → Storing on datanode2...
+2026-06-26 11:33:11,355 INFO 📤 Sending 2730 KB to datanode2
+2026-06-26 11:33:11,374 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:33:11,374 INFO ✅ Stored DA_U1.pdf_part3 on datanode2
+2026-06-26 11:33:11,374 INFO   ✅ datanode2
+2026-06-26 11:33:11,374 INFO ✅ Chunk 4/7 stored on 2 node(s)
+2026-06-26 11:33:11,379 INFO 📤 Chunk 5/7: DA_U1.pdf_part4 (2097152 bytes)
+2026-06-26 11:33:11,379 INFO   → Storing on datanode1...
+2026-06-26 11:33:11,385 INFO 📤 Sending 2730 KB to datanode1
+2026-06-26 11:33:11,411 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:33:11,412 INFO ✅ Stored DA_U1.pdf_part4 on datanode1
+2026-06-26 11:33:11,412 INFO   ✅ datanode1
+2026-06-26 11:33:11,412 INFO   → Storing on datanode2...
+2026-06-26 11:33:11,417 INFO 📤 Sending 2730 KB to datanode2
+2026-06-26 11:33:11,433 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:33:11,434 INFO ✅ Stored DA_U1.pdf_part4 on datanode2
+2026-06-26 11:33:11,434 INFO   ✅ datanode2
+2026-06-26 11:33:11,434 INFO ✅ Chunk 5/7 stored on 2 node(s)
+2026-06-26 11:33:11,438 INFO 📤 Chunk 6/7: DA_U1.pdf_part5 (2097152 bytes)
+2026-06-26 11:33:11,438 INFO   → Storing on datanode1...
+2026-06-26 11:33:11,444 INFO 📤 Sending 2730 KB to datanode1
+2026-06-26 11:33:11,477 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:33:11,478 INFO ✅ Stored DA_U1.pdf_part5 on datanode1
+2026-06-26 11:33:11,478 INFO   ✅ datanode1
+2026-06-26 11:33:11,484 INFO   → Storing on datanode2...
+2026-06-26 11:33:11,498 INFO 📤 Sending 2730 KB to datanode2
+2026-06-26 11:33:11,520 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:33:11,521 INFO ✅ Stored DA_U1.pdf_part5 on datanode2
+2026-06-26 11:33:11,521 INFO   ✅ datanode2
+2026-06-26 11:33:11,521 INFO ✅ Chunk 6/7 stored on 2 node(s)
+2026-06-26 11:33:11,522 INFO 📤 Chunk 7/7: DA_U1.pdf_part6 (78 bytes)
+2026-06-26 11:33:11,523 INFO   → Storing on datanode1...
+2026-06-26 11:33:11,523 INFO 📤 Sending 0 KB to datanode1
+2026-06-26 11:33:11,524 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:33:11,525 INFO ✅ Stored DA_U1.pdf_part6 on datanode1
+2026-06-26 11:33:11,525 INFO   ✅ datanode1
+2026-06-26 11:33:11,525 INFO   → Storing on datanode2...
+2026-06-26 11:33:11,525 INFO 📤 Sending 0 KB to datanode2
+2026-06-26 11:33:11,526 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:33:11,526 INFO ✅ Stored DA_U1.pdf_part6 on datanode2
+2026-06-26 11:33:11,526 INFO   ✅ datanode2
+2026-06-26 11:33:11,526 INFO ✅ Chunk 7/7 stored on 2 node(s)
+2026-06-26 11:33:11,544 INFO ✅✅ UPLOAD COMPLETE: DA_U1.pdf in 7 chunks
+2026-06-26 11:33:11,551 INFO 📤 Sent upload response (35 bytes) to ('127.0.0.1', 34452)
+2026-06-26 11:33:11,551 INFO 🔒 Connection closed with ('127.0.0.1', 34452)
+2026-06-26 11:33:14,923 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:33:15,122 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:33:17,069 INFO 📞 New connection from ('127.0.0.1', 34456)
+2026-06-26 11:33:17,075 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:33:17,076 INFO 📩 Request: status from ('127.0.0.1', 34456)
+2026-06-26 11:33:17,076 INFO ✅ Status: 3 files, 2 nodes
+2026-06-26 11:33:17,077 INFO 📤 Sent status response (2136 bytes) to ('127.0.0.1', 34456)
+2026-06-26 11:33:17,077 INFO 🔒 Connection closed with ('127.0.0.1', 34456)
+2026-06-26 11:33:17,097 INFO 📞 New connection from ('127.0.0.1', 34462)
+2026-06-26 11:33:17,097 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:33:17,097 INFO 📩 Request: list from ('127.0.0.1', 34462)
+2026-06-26 11:33:17,098 INFO 📤 Sent list response (448 bytes) to ('127.0.0.1', 34462)
+2026-06-26 11:33:17,099 INFO 🔒 Connection closed with ('127.0.0.1', 34462)
+2026-06-26 11:33:19,512 INFO ⏱ Timeout after receiving 0 bytes
+2026-06-26 11:33:19,513 INFO 📥 Received 0 bytes total (0.00 MB)
+2026-06-26 11:33:19,513 INFO ⚠ Could not read smote.ipynb_part0 from datanode1
+2026-06-26 11:33:19,923 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:33:20,123 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:33:24,933 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:33:25,126 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:33:29,934 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:33:30,126 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:33:34,935 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:33:35,129 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:33:39,526 INFO ⏱ Timeout after receiving 0 bytes
+2026-06-26 11:33:39,527 INFO 📥 Received 0 bytes total (0.00 MB)
+2026-06-26 11:33:39,529 INFO ⚠ Could not read smote.ipynb_part0 from datanode1
+2026-06-26 11:33:39,938 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:33:40,130 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:33:45,132 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:33:50,132 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:33:55,133 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:33:59,486 INFO ⚠ datanode2 is DOWN (no heartbeat)
+2026-06-26 11:33:59,544 INFO ⏱ Timeout after receiving 0 bytes
+2026-06-26 11:33:59,544 INFO 📥 Received 0 bytes total (0.00 MB)
+2026-06-26 11:33:59,545 INFO ⚠ Could not read smote.ipynb_part0 from datanode1
+2026-06-26 11:34:00,134 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:34:05,135 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:34:09,547 INFO ⚠ No candidates to re-replicate Oversampling Documentation.pdf_part0
+2026-06-26 11:34:09,548 INFO ⚠ No candidates to re-replicate smote.ipynb_part0
+2026-06-26 11:34:09,548 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part0
+2026-06-26 11:34:09,548 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part1
+2026-06-26 11:34:09,548 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part2
+2026-06-26 11:34:09,548 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part3
+2026-06-26 11:34:09,548 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part4
+2026-06-26 11:34:09,548 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part5
+2026-06-26 11:34:09,549 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part6
+2026-06-26 11:34:10,154 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:34:15,160 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:34:19,553 INFO ⚠ No candidates to re-replicate Oversampling Documentation.pdf_part0
+2026-06-26 11:34:19,553 INFO ⚠ No candidates to re-replicate smote.ipynb_part0
+2026-06-26 11:34:19,554 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part0
+2026-06-26 11:34:19,555 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part1
+2026-06-26 11:34:19,555 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part2
+2026-06-26 11:34:19,555 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part3
+2026-06-26 11:34:19,555 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part4
+2026-06-26 11:34:19,555 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part5
+2026-06-26 11:34:19,555 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part6
+2026-06-26 11:34:20,163 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:34:20,530 INFO 📞 New connection from ('127.0.0.1', 56358)
+2026-06-26 11:34:20,534 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:34:20,538 INFO 📩 Request: status from ('127.0.0.1', 56358)
+2026-06-26 11:34:20,538 INFO ✅ Status: 3 files, 2 nodes
+2026-06-26 11:34:20,539 INFO 📤 Sent status response (3056 bytes) to ('127.0.0.1', 56358)
+2026-06-26 11:34:20,540 INFO 🔒 Connection closed with ('127.0.0.1', 56358)
+2026-06-26 11:34:20,566 INFO 📞 New connection from ('127.0.0.1', 56364)
+2026-06-26 11:34:20,567 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:34:20,567 INFO 📩 Request: list from ('127.0.0.1', 56364)
+2026-06-26 11:34:20,569 INFO 📤 Sent list response (448 bytes) to ('127.0.0.1', 56364)
+2026-06-26 11:34:20,570 INFO 🔒 Connection closed with ('127.0.0.1', 56364)
+2026-06-26 11:34:25,170 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:34:29,558 INFO ⚠ No candidates to re-replicate Oversampling Documentation.pdf_part0
+2026-06-26 11:34:29,564 INFO ⚠ No candidates to re-replicate smote.ipynb_part0
+2026-06-26 11:34:29,564 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part0
+2026-06-26 11:34:29,566 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part1
+2026-06-26 11:34:29,568 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part2
+2026-06-26 11:34:29,568 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part3
+2026-06-26 11:34:29,569 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part4
+2026-06-26 11:34:29,569 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part5
+2026-06-26 11:34:29,569 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part6
+2026-06-26 11:34:30,209 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:34:35,212 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:34:39,573 INFO ⚠ No candidates to re-replicate Oversampling Documentation.pdf_part0
+2026-06-26 11:34:39,573 INFO ⚠ No candidates to re-replicate smote.ipynb_part0
+2026-06-26 11:34:39,574 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part0
+2026-06-26 11:34:39,575 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part1
+2026-06-26 11:34:39,575 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part2
+2026-06-26 11:34:39,575 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part3
+2026-06-26 11:34:39,575 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part4
+2026-06-26 11:34:39,584 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part5
+2026-06-26 11:34:39,584 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part6
+2026-06-26 11:34:40,211 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:34:45,212 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:34:49,586 INFO ⚠ No candidates to re-replicate Oversampling Documentation.pdf_part0
+2026-06-26 11:34:49,586 INFO ⚠ No candidates to re-replicate smote.ipynb_part0
+2026-06-26 11:34:49,586 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part0
+2026-06-26 11:34:49,586 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part1
+2026-06-26 11:34:49,587 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part2
+2026-06-26 11:34:49,587 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part3
+2026-06-26 11:34:49,587 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part4
+2026-06-26 11:34:49,587 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part5
+2026-06-26 11:34:49,588 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part6
+2026-06-26 11:34:50,212 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:34:55,215 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:34:59,589 INFO ⚠ No candidates to re-replicate Oversampling Documentation.pdf_part0
+2026-06-26 11:34:59,589 INFO ⚠ No candidates to re-replicate smote.ipynb_part0
+2026-06-26 11:34:59,590 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part0
+2026-06-26 11:34:59,590 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part1
+2026-06-26 11:34:59,590 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part2
+2026-06-26 11:34:59,590 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part3
+2026-06-26 11:34:59,590 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part4
+2026-06-26 11:34:59,590 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part5
+2026-06-26 11:34:59,590 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part6
+2026-06-26 11:35:00,218 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:35:05,218 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:35:09,593 INFO ⚠ No candidates to re-replicate Oversampling Documentation.pdf_part0
+2026-06-26 11:35:09,598 INFO ⚠ No candidates to re-replicate smote.ipynb_part0
+2026-06-26 11:35:09,599 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part0
+2026-06-26 11:35:09,600 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part1
+2026-06-26 11:35:09,602 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part2
+2026-06-26 11:35:09,602 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part3
+2026-06-26 11:35:09,602 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part4
+2026-06-26 11:35:09,603 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part5
+2026-06-26 11:35:09,603 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part6
+2026-06-26 11:35:10,220 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:35:15,222 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:35:19,605 INFO ⚠ No candidates to re-replicate Oversampling Documentation.pdf_part0
+2026-06-26 11:35:19,606 INFO ⚠ No candidates to re-replicate smote.ipynb_part0
+2026-06-26 11:35:19,607 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part0
+2026-06-26 11:35:19,607 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part1
+2026-06-26 11:35:19,608 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part2
+2026-06-26 11:35:19,608 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part3
+2026-06-26 11:35:19,608 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part4
+2026-06-26 11:35:19,608 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part5
+2026-06-26 11:35:19,609 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part6
+2026-06-26 11:35:20,220 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:35:21,612 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:35:25,221 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:35:26,613 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:35:30,221 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:35:31,617 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:35:35,222 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:35:36,619 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:35:39,623 INFO ⏱ Timeout after receiving 0 bytes
+2026-06-26 11:35:39,623 INFO 📥 Received 0 bytes total (0.00 MB)
+2026-06-26 11:35:39,626 INFO ⚠ Could not read Oversampling Documentation.pdf_part0 from datanode1
+2026-06-26 11:35:40,223 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:35:41,619 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:35:45,223 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:35:46,619 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:35:49,638 INFO ⏱ Timeout after receiving 0 bytes
+2026-06-26 11:35:49,639 INFO 📥 Received 0 bytes total (0.00 MB)
+2026-06-26 11:35:49,641 INFO ⚠ Could not read smote.ipynb_part0 from datanode1
+2026-06-26 11:35:50,226 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:35:51,622 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:35:55,228 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:35:56,627 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:35:59,651 INFO ⏱ Timeout after receiving 0 bytes
+2026-06-26 11:35:59,651 INFO 📥 Received 0 bytes total (0.00 MB)
+2026-06-26 11:35:59,652 INFO ⚠ Could not read DA_U1.pdf_part0 from datanode1
+2026-06-26 11:36:00,228 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:36:01,622 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:36:05,230 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:36:06,628 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:36:09,668 INFO ⏱ Timeout after receiving 0 bytes
+2026-06-26 11:36:09,668 INFO 📥 Received 0 bytes total (0.00 MB)
+2026-06-26 11:36:09,669 INFO ⚠ Could not read DA_U1.pdf_part1 from datanode1
+2026-06-26 11:36:10,230 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:36:11,629 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:36:15,232 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:36:16,628 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:36:19,677 INFO ⏱ Timeout after receiving 0 bytes
+2026-06-26 11:36:19,677 INFO 📥 Received 0 bytes total (0.00 MB)
+2026-06-26 11:36:19,681 INFO ⚠ Could not read DA_U1.pdf_part2 from datanode1
+2026-06-26 11:36:20,235 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:36:21,630 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:36:25,234 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:36:26,631 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:36:29,694 INFO ⏱ Timeout after receiving 0 bytes
+2026-06-26 11:36:29,695 INFO 📥 Received 0 bytes total (0.00 MB)
+2026-06-26 11:36:29,698 INFO ⚠ Could not read DA_U1.pdf_part3 from datanode1
+2026-06-26 11:36:30,236 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:36:31,637 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:36:35,236 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:36:36,637 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:36:39,710 INFO ⏱ Timeout after receiving 0 bytes
+2026-06-26 11:36:39,711 INFO 📥 Received 0 bytes total (0.00 MB)
+2026-06-26 11:36:39,713 INFO ⚠ Could not read DA_U1.pdf_part4 from datanode1
+2026-06-26 11:36:40,238 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:36:41,637 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:36:45,239 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:36:46,638 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:36:49,717 INFO ⏱ Timeout after receiving 0 bytes
+2026-06-26 11:36:49,717 INFO 📥 Received 0 bytes total (0.00 MB)
+2026-06-26 11:36:49,719 INFO ⚠ Could not read DA_U1.pdf_part5 from datanode1
+2026-06-26 11:36:50,242 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:36:51,641 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:36:55,240 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:36:56,640 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:36:59,730 INFO ⏱ Timeout after receiving 0 bytes
+2026-06-26 11:36:59,730 INFO 📥 Received 0 bytes total (0.00 MB)
+2026-06-26 11:36:59,730 INFO ⚠ Could not read DA_U1.pdf_part6 from datanode1
+2026-06-26 11:37:00,242 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:37:01,640 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:37:05,241 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:37:06,641 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:37:07,107 INFO 📞 New connection from ('127.0.0.1', 50202)
+2026-06-26 11:37:07,113 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:37:07,114 INFO 📩 Request: status from ('127.0.0.1', 50202)
+2026-06-26 11:37:07,114 INFO ✅ Status: 3 files, 2 nodes
+2026-06-26 11:37:07,114 INFO 📤 Sent status response (3056 bytes) to ('127.0.0.1', 50202)
+2026-06-26 11:37:07,114 INFO 🔒 Connection closed with ('127.0.0.1', 50202)
+2026-06-26 11:37:07,139 INFO 📞 New connection from ('127.0.0.1', 50214)
+2026-06-26 11:37:07,143 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:37:07,145 INFO 📩 Request: list from ('127.0.0.1', 50214)
+2026-06-26 11:37:07,145 INFO 📤 Sent list response (448 bytes) to ('127.0.0.1', 50214)
+2026-06-26 11:37:07,146 INFO 🔒 Connection closed with ('127.0.0.1', 50214)
+2026-06-26 11:37:09,007 INFO 📞 New connection from ('127.0.0.1', 58188)
+2026-06-26 11:37:09,009 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:37:09,010 INFO 📩 Request: status from ('127.0.0.1', 58188)
+2026-06-26 11:37:09,010 INFO ✅ Status: 3 files, 2 nodes
+2026-06-26 11:37:09,011 INFO 📤 Sent status response (3056 bytes) to ('127.0.0.1', 58188)
+2026-06-26 11:37:09,012 INFO 🔒 Connection closed with ('127.0.0.1', 58188)
+2026-06-26 11:37:09,035 INFO 📞 New connection from ('127.0.0.1', 58190)
+2026-06-26 11:37:09,038 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:37:09,038 INFO 📩 Request: list from ('127.0.0.1', 58190)
+2026-06-26 11:37:09,039 INFO 📤 Sent list response (448 bytes) to ('127.0.0.1', 58190)
+2026-06-26 11:37:09,040 INFO 🔒 Connection closed with ('127.0.0.1', 58190)
+2026-06-26 11:37:09,468 INFO 📞 New connection from ('127.0.0.1', 58194)
+2026-06-26 11:37:09,469 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:37:09,469 INFO 📩 Request: status from ('127.0.0.1', 58194)
+2026-06-26 11:37:09,470 INFO ✅ Status: 3 files, 2 nodes
+2026-06-26 11:37:09,471 INFO 📤 Sent status response (3056 bytes) to ('127.0.0.1', 58194)
+2026-06-26 11:37:09,471 INFO 🔒 Connection closed with ('127.0.0.1', 58194)
+2026-06-26 11:37:09,507 INFO 📞 New connection from ('127.0.0.1', 58200)
+2026-06-26 11:37:09,508 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:37:09,509 INFO 📩 Request: list from ('127.0.0.1', 58200)
+2026-06-26 11:37:09,509 INFO 📤 Sent list response (448 bytes) to ('127.0.0.1', 58200)
+2026-06-26 11:37:09,510 INFO 🔒 Connection closed with ('127.0.0.1', 58200)
+2026-06-26 11:37:09,735 INFO 📞 New connection from ('127.0.0.1', 58210)
+2026-06-26 11:37:09,737 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:37:09,738 INFO 📩 Request: status from ('127.0.0.1', 58210)
+2026-06-26 11:37:09,738 INFO ✅ Status: 3 files, 2 nodes
+2026-06-26 11:37:09,738 INFO 📤 Sent status response (3056 bytes) to ('127.0.0.1', 58210)
+2026-06-26 11:37:09,739 INFO 🔒 Connection closed with ('127.0.0.1', 58210)
+2026-06-26 11:37:09,776 INFO 📞 New connection from ('127.0.0.1', 58218)
+2026-06-26 11:37:09,779 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:37:09,779 INFO 📩 Request: list from ('127.0.0.1', 58218)
+2026-06-26 11:37:09,780 INFO 📤 Sent list response (448 bytes) to ('127.0.0.1', 58218)
+2026-06-26 11:37:09,780 INFO 🔒 Connection closed with ('127.0.0.1', 58218)
+2026-06-26 11:37:10,248 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:37:10,494 INFO 📞 New connection from ('127.0.0.1', 58234)
+2026-06-26 11:37:10,495 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:37:10,495 INFO 📩 Request: status from ('127.0.0.1', 58234)
+2026-06-26 11:37:10,495 INFO ✅ Status: 3 files, 2 nodes
+2026-06-26 11:37:10,495 INFO 📤 Sent status response (3056 bytes) to ('127.0.0.1', 58234)
+2026-06-26 11:37:10,495 INFO 🔒 Connection closed with ('127.0.0.1', 58234)
+2026-06-26 11:37:10,527 INFO 📞 New connection from ('127.0.0.1', 58242)
+2026-06-26 11:37:10,528 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:37:10,529 INFO 📩 Request: list from ('127.0.0.1', 58242)
+2026-06-26 11:37:10,529 INFO 📤 Sent list response (448 bytes) to ('127.0.0.1', 58242)
+2026-06-26 11:37:10,530 INFO 🔒 Connection closed with ('127.0.0.1', 58242)
+2026-06-26 11:37:10,744 INFO 📞 New connection from ('127.0.0.1', 58256)
+2026-06-26 11:37:10,745 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:37:10,745 INFO 📩 Request: status from ('127.0.0.1', 58256)
+2026-06-26 11:37:10,745 INFO ✅ Status: 3 files, 2 nodes
+2026-06-26 11:37:10,749 INFO 📤 Sent status response (3056 bytes) to ('127.0.0.1', 58256)
+2026-06-26 11:37:10,750 INFO 🔒 Connection closed with ('127.0.0.1', 58256)
+2026-06-26 11:37:10,814 INFO 📞 New connection from ('127.0.0.1', 58258)
+2026-06-26 11:37:10,815 INFO 📥 Received 18 bytes total (0.00 MB)
+2026-06-26 11:37:10,818 INFO 📩 Request: list from ('127.0.0.1', 58258)
+2026-06-26 11:37:10,819 INFO 📤 Sent list response (448 bytes) to ('127.0.0.1', 58258)
+2026-06-26 11:37:10,820 INFO 🔒 Connection closed with ('127.0.0.1', 58258)
+2026-06-26 11:37:11,641 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:37:15,249 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:37:16,641 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:37:19,734 INFO ⏱ Timeout after receiving 0 bytes
+2026-06-26 11:37:19,735 INFO 📥 Received 0 bytes total (0.00 MB)
+2026-06-26 11:37:19,736 INFO ⚠ Could not read Oversampling Documentation.pdf_part0 from datanode1
+2026-06-26 11:37:20,249 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:37:21,647 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:37:25,250 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:37:26,644 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:37:29,753 INFO ⏱ Timeout after receiving 0 bytes
+2026-06-26 11:37:29,754 INFO 📥 Received 0 bytes total (0.00 MB)
+2026-06-26 11:37:29,754 INFO ⚠ Could not read smote.ipynb_part0 from datanode1
+2026-06-26 11:37:30,252 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:37:31,654 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:37:35,251 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:37:36,658 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:37:39,767 INFO ⏱ Timeout after receiving 0 bytes
+2026-06-26 11:37:39,769 INFO 📥 Received 0 bytes total (0.00 MB)
+2026-06-26 11:37:39,769 INFO ⚠ Could not read DA_U1.pdf_part0 from datanode1
+2026-06-26 11:37:40,253 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:37:41,661 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:37:45,255 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:37:46,659 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:37:49,783 INFO ⏱ Timeout after receiving 0 bytes
+2026-06-26 11:37:49,784 INFO 📥 Received 0 bytes total (0.00 MB)
+2026-06-26 11:37:49,785 INFO ⚠ Could not read DA_U1.pdf_part1 from datanode1
+2026-06-26 11:37:50,256 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:37:51,669 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:37:55,264 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:37:56,675 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:37:59,910 INFO ⏱ Timeout after receiving 0 bytes
+2026-06-26 11:37:59,911 INFO 📥 Received 0 bytes total (0.00 MB)
+2026-06-26 11:37:59,914 INFO ⚠ Could not read DA_U1.pdf_part2 from datanode1
+2026-06-26 11:38:00,263 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:38:01,676 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:38:13,487 INFO 💓 Heartbeat listener active on 0.0.0.0:6000
+2026-06-26 11:38:13,488 INFO 🧠 NameNode listening on 0.0.0.0:5000
+2026-06-26 11:38:15,268 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:38:16,680 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:38:18,493 INFO 📥 Received 337335 bytes total (0.32 MB)
+2026-06-26 11:38:20,271 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:38:21,681 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:38:25,278 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:38:26,685 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:38:30,278 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:38:31,688 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:38:35,280 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:38:36,690 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:38:40,282 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:38:41,690 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:38:45,282 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:38:46,715 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:38:50,284 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:38:51,758 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:38:55,285 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:38:56,795 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:39:00,295 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:39:01,794 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:39:05,292 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:39:06,795 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:39:10,294 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:39:11,795 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:39:15,299 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:39:16,795 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:39:20,299 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:39:21,795 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:39:25,300 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:39:26,796 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:39:30,301 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:39:31,798 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:39:35,302 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:39:36,815 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:39:40,302 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:39:41,832 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:39:45,303 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:39:46,829 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:39:50,310 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:39:51,832 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:39:55,316 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:39:56,833 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:40:03,900 INFO 💓 Heartbeat listener active on 0.0.0.0:6000
+2026-06-26 11:40:03,902 INFO 🧠 NameNode listening on 0.0.0.0:5000
+2026-06-26 11:40:05,310 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:40:06,837 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:40:08,907 INFO 📥 Received 337335 bytes total (0.32 MB)
+2026-06-26 11:40:10,310 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:40:11,838 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:40:15,312 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:40:16,839 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:40:24,571 INFO 💓 Heartbeat listener active on 0.0.0.0:6000
+2026-06-26 11:40:24,573 INFO 🧠 NameNode listening on 0.0.0.0:5000
+2026-06-26 11:40:25,313 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:40:26,840 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:40:29,573 INFO ⚠ No candidates to re-replicate Oversampling Documentation.pdf_part0
+2026-06-26 11:40:29,574 INFO ⚠ No candidates to re-replicate smote.ipynb_part0
+2026-06-26 11:40:29,574 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part0
+2026-06-26 11:40:29,574 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part1
+2026-06-26 11:40:29,574 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part2
+2026-06-26 11:40:29,574 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part3
+2026-06-26 11:40:29,574 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part4
+2026-06-26 11:40:29,574 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part5
+2026-06-26 11:40:29,575 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part6
+2026-06-26 11:40:30,316 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:40:31,843 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:40:35,317 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:40:36,842 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:40:39,579 INFO ⚠ No candidates to re-replicate Oversampling Documentation.pdf_part0
+2026-06-26 11:40:39,579 INFO ⚠ No candidates to re-replicate smote.ipynb_part0
+2026-06-26 11:40:39,579 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part0
+2026-06-26 11:40:39,579 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part1
+2026-06-26 11:40:39,579 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part2
+2026-06-26 11:40:39,579 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part3
+2026-06-26 11:40:39,579 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part4
+2026-06-26 11:40:39,579 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part5
+2026-06-26 11:40:39,579 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part6
+2026-06-26 11:40:40,318 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:40:41,842 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:40:44,953 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:40:45,319 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:40:46,843 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:40:49,595 INFO 📥 Received 1303215 bytes total (1.24 MB)
+2026-06-26 11:40:49,605 INFO 📤 Sending 1272 KB to datanode2
+2026-06-26 11:40:49,620 INFO 📥 Received 20 bytes total (0.00 MB)
+2026-06-26 11:40:49,620 INFO ✅ Stored smote.ipynb_part0 on datanode2
+2026-06-26 11:40:49,620 INFO ♻ Re-replicated smote.ipynb_part0 → datanode2
+2026-06-26 11:40:49,953 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:40:50,320 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:40:51,843 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:40:54,954 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:40:55,321 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:40:56,843 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:40:59,955 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:41:00,321 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:41:01,844 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:41:04,955 INFO ✅ Heartbeat from datanode2
+2026-06-26 11:41:05,323 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:41:10,330 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:41:15,334 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:41:19,579 INFO ⚠ datanode3 is DOWN (no heartbeat)
+2026-06-26 11:41:20,334 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:41:24,583 INFO ⚠ datanode2 is DOWN (no heartbeat)
+2026-06-26 11:41:25,335 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:41:29,632 INFO ⚠ No candidates to re-replicate Oversampling Documentation.pdf_part0
+2026-06-26 11:41:29,633 INFO ⚠ No candidates to re-replicate smote.ipynb_part0
+2026-06-26 11:41:29,637 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part0
+2026-06-26 11:41:29,637 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part1
+2026-06-26 11:41:29,637 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part2
+2026-06-26 11:41:29,637 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part3
+2026-06-26 11:41:29,637 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part4
+2026-06-26 11:41:29,637 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part5
+2026-06-26 11:41:29,637 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part6
+2026-06-26 11:41:30,341 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:41:34,057 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:41:35,338 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:41:39,058 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:41:39,641 INFO ⚠ No candidates to re-replicate Oversampling Documentation.pdf_part0
+2026-06-26 11:41:39,643 INFO ⚠ No candidates to re-replicate smote.ipynb_part0
+2026-06-26 11:41:39,643 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part0
+2026-06-26 11:41:39,643 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part1
+2026-06-26 11:41:39,643 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part2
+2026-06-26 11:41:39,644 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part3
+2026-06-26 11:41:39,645 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part4
+2026-06-26 11:41:39,645 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part5
+2026-06-26 11:41:39,647 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part6
+2026-06-26 11:41:40,338 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:41:44,058 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:41:45,338 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:41:49,059 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:41:49,649 INFO ⚠ No candidates to re-replicate Oversampling Documentation.pdf_part0
+2026-06-26 11:41:49,649 INFO ⚠ No candidates to re-replicate smote.ipynb_part0
+2026-06-26 11:41:49,650 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part0
+2026-06-26 11:41:49,650 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part1
+2026-06-26 11:41:49,651 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part2
+2026-06-26 11:41:49,651 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part3
+2026-06-26 11:41:49,652 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part4
+2026-06-26 11:41:49,652 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part5
+2026-06-26 11:41:49,653 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part6
+2026-06-26 11:41:50,341 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:41:54,060 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:41:55,343 INFO ✅ Heartbeat from datanode1
+2026-06-26 11:41:59,063 INFO ✅ Heartbeat from datanode3
+2026-06-26 11:41:59,655 INFO ⚠ No candidates to re-replicate Oversampling Documentation.pdf_part0
+2026-06-26 11:41:59,656 INFO ⚠ No candidates to re-replicate smote.ipynb_part0
+2026-06-26 11:41:59,657 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part0
+2026-06-26 11:41:59,657 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part1
+2026-06-26 11:41:59,657 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part2
+2026-06-26 11:41:59,657 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part3
+2026-06-26 11:41:59,657 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part4
+2026-06-26 11:41:59,657 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part5
+2026-06-26 11:41:59,657 INFO ⚠ No candidates to re-replicate DA_U1.pdf_part6
+2026-06-26 11:42:00,343 INFO ✅ Heartbeat from datanode1
