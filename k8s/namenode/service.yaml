@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hdfs-namenode
+spec:
+  selector:
+    app: hdfs-namenode
+  ports:
+  - name: rpc
+    port: 5000
+    targetPort: 5000
+  - name: heartbeat
+    port: 6000
+    targetPort: 6000
+    protocol: UDP

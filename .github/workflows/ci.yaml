@@ -1,0 +1,88 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pytest pytest-cov
+
+      - name: Run unit tests
+        run: pytest tests/unit/ -v --cov=namenode --cov-report=term-missing
+
+  integration-tests:
+    runs-on: ubuntu-latest
+    needs: unit-tests
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Build images
+        run: |
+          docker build -t hdfs-namenode ./namenode
+          docker build -t hdfs-datanode ./datanode
+          docker build -t hdfs-client ./client
+
+      - name: Start cluster
+        run: docker-compose up -d
+
+      - name: Wait for cluster to be ready
+        run: |
+          echo "Waiting for NameNode..."
+          sleep 15
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install test dependencies
+        run: pip install pytest
+
+      - name: Run integration tests
+        run: pytest tests/integration/ -v
+
+      - name: Tear down
+        if: always()
+        run: docker-compose down -v
+
+  build-images:
+    runs-on: ubuntu-latest
+    needs: integration-tests
+    if: github.ref == 'refs/heads/master'
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Log in to GitHub Container Registry
+        run: echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+
+      - name: Build and push NameNode
+        run: |
+          docker build -t ghcr.io/${{ github.actor }}/hdfs-namenode:${{ github.sha }} ./namenode
+          docker build -t ghcr.io/${{ github.actor }}/hdfs-namenode:latest ./namenode
+          docker push ghcr.io/${{ github.actor }}/hdfs-namenode:${{ github.sha }}
+          docker push ghcr.io/${{ github.actor }}/hdfs-namenode:latest
+
+      - name: Build and push DataNode
+        run: |
+          docker build -t ghcr.io/${{ github.actor }}/hdfs-datanode:${{ github.sha }} ./datanode
+          docker build -t ghcr.io/${{ github.actor }}/hdfs-datanode:latest ./datanode
+          docker push ghcr.io/${{ github.actor }}/hdfs-datanode:${{ github.sha }}
+          docker push ghcr.io/${{ github.actor }}/hdfs-datanode:latest
+
+      - name: Build and push Client
+        run: |
+          docker build -t ghcr.io/${{ github.actor }}/hdfs-client:${{ github.sha }} ./client
+          docker build -t ghcr.io/${{ github.actor }}/hdfs-client:latest ./client
+          docker push ghcr.io/${{ github.actor }}/hdfs-client:${{ github.sha }}
+          docker push ghcr.io/${{ github.actor }}/hdfs-client:latest

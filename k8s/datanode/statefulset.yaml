@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: hdfs-datanode
+spec:
+  serviceName: "hdfs-datanode"
+  replicas: 3
+  selector:
+    matchLabels:
+      app: hdfs-datanode
+  template:
+    metadata:
+      labels:
+        app: hdfs-datanode
+    spec:
+      containers:
+      - name: datanode
+        image: hdfs-datanode:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 5001
+        env:
+        - name: DATANODE_NAME
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.name
+        - name: DATANODE_PORT
+          value: "5001"
+        envFrom:
+        - configMapRef:
+            name: hdfs-config
+        volumeMounts:
+        - name: block-storage
+          mountPath: /app/data_blocks
+  volumeClaimTemplates:
+  - metadata:
+      name: block-storage
+    spec:
+      accessModes: ["ReadWriteOnce"]
+      resources:
+        requests:
+          storage: 5Gi

@@ -1,0 +1,69 @@
+version: '3.8'
+
+services:
+  namenode:
+    image: hdfs-namenode
+    container_name: hdfs-namenode
+    ports:
+      - "5000:5000"
+      - "6000:6000/udp"
+    volumes:
+      - nn_data:/app/data
+      - nn_logs:/app/logs
+    environment:
+      - REPLICATION_FACTOR=2
+      - NAMENODE_HOST=0.0.0.0
+      - NAMENODE_PORT=5000
+      - DATANODES=datanode1=datanode-1:5001,datanode2=datanode-2:5001,datanode3=datanode-3:5001
+
+  datanode-1:
+    image: hdfs-datanode
+    container_name: hdfs-datanode-1
+    volumes:
+      - dn1_data:/app/data_blocks
+    environment:
+      - DATANODE_NAME=datanode1
+      - DATANODE_PORT=5001
+      - NAMENODE_HOST=namenode
+      - NAMENODE_HEARTBEAT_PORT=6000
+
+  datanode-2:
+    image: hdfs-datanode
+    container_name: hdfs-datanode-2
+    volumes:
+      - dn2_data:/app/data_blocks
+    environment:
+      - DATANODE_NAME=datanode2
+      - DATANODE_PORT=5001
+      - NAMENODE_HOST=namenode
+      - NAMENODE_HEARTBEAT_PORT=6000
+
+  datanode-3:
+    image: hdfs-datanode
+    container_name: hdfs-datanode-3
+    volumes:
+      - dn3_data:/app/data_blocks
+    environment:
+      - DATANODE_NAME=datanode3
+      - DATANODE_PORT=5001
+      - NAMENODE_HOST=namenode
+      - NAMENODE_HEARTBEAT_PORT=6000
+
+  client:
+    image: hdfs-client
+    container_name: hdfs-client
+    ports:
+      - "8501:8501"
+    environment:
+      - NAMENODE_HOST=namenode
+      - NAMENODE_PORT=5000
+      - DATANODES=datanode1=datanode-1:5001,datanode2=datanode-2:5001,datanode3=datanode-3:5001
+    depends_on:
+      - namenode
+
+volumes:
+  nn_data: {}
+  nn_logs: {}
+  dn1_data: {}
+  dn2_data: {}
+  dn3_data: {}
