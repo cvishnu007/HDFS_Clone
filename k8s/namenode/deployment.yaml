@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hdfs-namenode
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hdfs-namenode
+  template:
+    metadata:
+      labels:
+        app: hdfs-namenode
+    spec:
+      containers:
+      - name: namenode
+        image: hdfs-namenode:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 5000
+        - containerPort: 6000
+          protocol: UDP
+        envFrom:
+        - configMapRef:
+            name: hdfs-config
+        volumeMounts:
+        - name: nn-storage
+          mountPath: /app/data
+      volumes:
+      - name: nn-storage
+        persistentVolumeClaim:
+          claimName: nn-pvc

@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hdfs-client
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hdfs-client
+  template:
+    metadata:
+      labels:
+        app: hdfs-client
+    spec:
+      containers:
+      - name: client
+        image: hdfs-client:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8501
+        envFrom:
+        - configMapRef:
+            name: hdfs-config
