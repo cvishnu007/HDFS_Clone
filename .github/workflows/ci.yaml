@@ -35,7 +35,7 @@ jobs:
           docker build -t hdfs-client ./client
 
       - name: Start cluster
-        run: docker-compose up -d
+        run: docker compose up -d
 
       - name: Wait for cluster to be ready
         run: |
@@ -54,7 +54,7 @@ jobs:
 
       - name: Tear down
         if: always()
-        run: docker-compose down -v
+        run: docker compose down -v
 
   build-images:
     runs-on: ubuntu-latest
