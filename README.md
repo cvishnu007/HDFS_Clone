@@ -672,3 +672,50 @@ Replace the old per-file startup with the env var commands from Fix 1.5's verify
 | Env-var driven config (no hardcoded IPs) | ✅ Working | All components configurable via environment |
 
 ---
+
+# All these Tier 2 Updates are done 
+
+#### 2.1 Block re-replication on DataNode failure
+
+**File:** `namenode.py`  
+**Where:** New background thread, runs alongside `monitor_nodes()`  
+**Logic:**
+1. When `monitor_nodes` marks a node dead, add its chunks to a re-replication queue
+2. Background thread picks from the queue, reads each chunk from a surviving replica, stores it on a currently-alive node that doesn't already hold that chunk
+3. Updates metadata to reflect the new replica set
+
+**Why it matters:** Without this, the under-replication detection in the dashboard is a red light with no fire truck. This is what separates a fault-tolerant system from a fault-detecting one.
+
+---
+
+#### 2.2 File delete
+
+**Files:** `namenode.py`, `datanode.py`, `client.py`  
+**New action:** `"action": "delete"`  
+**Logic:**
+1. Client sends `{"action": "delete", "filename": "foo.txt"}` to NameNode
+2. NameNode reads chunk list from metadata, sends `{"action": "delete", "filename": chunk_name}` to each replica node
+3. DataNode deletes the file from `data_blocks/`
+4. NameNode removes the entry from metadata.json
+
+**Why it matters:** A file system without delete is not a file system. This is also the first operation that tests your consistency story — what happens if NameNode sends delete to datanode1 and datanode2 crashes before receiving it?
+
+---
+
+#### 2.3 File list operation
+
+**Files:** `namenode.py`, `client.py`  
+**New action:** `"action": "list"`  
+**Returns:** List of filenames, sizes (reconstructed from chunk sizes), chunk counts, upload timestamps  
+**Why it matters:** Trivial to implement but makes the dashboard complete. Also lets you add `os.path.getsize`-equivalent reporting from the NameNode's metadata alone, without contacting DataNodes.
+
+---
+
+#### 2.4 Configurable replication factor
+
+**File:** `namenode.py`  
+**Change:** Replace "replicate to all nodes" with "replicate to min(RF, alive_nodes)" where RF is a configurable constant (default 2).  
+**Why it matters:** Real HDFS uses a replication factor of 3 by default. Replicating to all nodes works with 2 DataNodes but breaks the design for any larger cluster. This also makes the re-replication logic in 2.1 cleaner — the target is always RF copies, not N copies.
+
+---
+
