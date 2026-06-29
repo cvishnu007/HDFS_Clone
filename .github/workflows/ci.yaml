@@ -17,7 +17,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install pytest pytest-cov
+        run: pip install pytest pytest-cov prometheus_client
 
       - name: Run unit tests
         run: pytest tests/unit/ -v --cov=namenode --cov-report=term-missing
@@ -47,7 +47,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install test dependencies
-        run: pip install pytest
+        run: pip install pytest prometheus_client
 
       - name: Run integration tests
         run: pytest tests/integration/ -v
