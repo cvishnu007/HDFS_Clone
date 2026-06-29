@@ -12,6 +12,30 @@ import logging
 from logging.handlers import RotatingFileHandler
 from typing import Dict, Tuple, List
 import base64
+from prometheus_client import (
+    start_http_server,
+    Gauge, Counter, Histogram, REGISTRY
+)
+
+# ---------- PROMETHEUS METRICS ----------
+
+HDFS_FILES_TOTAL           = Gauge("hdfs_files_total",              "Number of files in namespace")
+HDFS_CHUNKS_TOTAL          = Gauge("hdfs_chunks_total",             "Total chunks across all files")
+HDFS_UNDER_REPLICATED      = Gauge("hdfs_blocks_under_replicated",  "Chunks with fewer replicas than RF")
+HDFS_DATANODES_ALIVE       = Gauge("hdfs_datanodes_alive",          "Number of live DataNodes")
+HDFS_BYTES_STORED          = Gauge("hdfs_bytes_stored_total",       "Total bytes stored across all files")
+
+HDFS_UPLOADS_TOTAL         = Counter("hdfs_upload_requests_total",   "Cumulative upload operations")
+HDFS_DOWNLOADS_TOTAL       = Counter("hdfs_download_requests_total", "Cumulative download operations")
+HDFS_DELETES_TOTAL         = Counter("hdfs_delete_requests_total",   "Cumulative delete operations")
+
+HDFS_RPC_LATENCY           = Histogram(
+    "hdfs_rpc_latency_seconds",
+    "RPC latency in seconds",
+    labelnames=["op"],
+    buckets=[0.01, 0.05, 0.1, 0.25, 0.5, 1.0, 2.5, 5.0, 10.0]
+)
+
 # ---------- CONFIG ----------
 
 REPLICATION_FACTOR = int(os.environ.get("REPLICATION_FACTOR", "2"))
@@ -123,6 +147,29 @@ def heartbeat_listener():
         except Exception as e:
             log_console(f"⚠ Heartbeat error: {e}")
 
+def update_gauges():
+    """Refresh all Prometheus gauges from current metadata. Call after any mutation."""
+    with lock:
+        files     = metadata["files"]
+        alive_set = set(metadata["datanode_status"].keys())
+
+    file_count    = len(files)
+    chunk_count   = sum(len(e["chunks"]) for e in files.values())
+    bytes_total   = sum(e.get("size_bytes", 0) for e in files.values())
+    under_count   = sum(
+        1
+        for e in files.values()
+        for ch in e["chunks"]
+        if len([r for r in ch["replicas"] if r in alive_set]) < len(ch["replicas"])
+    )
+
+    HDFS_FILES_TOTAL.set(file_count)
+    HDFS_CHUNKS_TOTAL.set(chunk_count)
+    HDFS_BYTES_STORED.set(bytes_total)
+    HDFS_UNDER_REPLICATED.set(under_count)
+    HDFS_DATANODES_ALIVE.set(len(alive_set))
+
+
 def monitor_nodes():
     while True:
         time.sleep(HEARTBEAT_CHECK_EVERY)
@@ -136,6 +183,7 @@ def monitor_nodes():
                     changed = True
         if changed:
             save_metadata()
+        update_gauges()
 def re_replicate():
     while True:
         time.sleep(HEARTBEAT_CHECK_EVERY)
@@ -270,6 +318,7 @@ def read_chunk(node: str, chunk_name: str) -> dict:
 # ---------- CLIENT HANDLERS ----------
 def handle_upload(filename: str, content_str: str = None, content_b64: str = None) -> dict:
     """Handle file upload with chunking and replication."""
+    t_start = time.time()
     try:
         log_console(f"🔼 Starting upload for {filename}")
         
@@ -341,7 +390,10 @@ def handle_upload(filename: str, content_str: str = None, content_b64: str = Non
                 "uploaded_at": time.strftime("%Y-%m-%d %H:%M:%S")
             }
         save_metadata()
-        
+        HDFS_UPLOADS_TOTAL.inc()
+        HDFS_RPC_LATENCY.labels(op="upload").observe(time.time() - t_start)
+        update_gauges()
+
         log_console(f"✅✅ UPLOAD COMPLETE: {filename} in {len(chunks_meta)} chunks")
         return {"status": "uploaded", "chunks": len(chunks_meta)}
 
@@ -353,11 +405,15 @@ def handle_upload(filename: str, content_str: str = None, content_b64: str = Non
 
 def handle_download(filename: str) -> dict:
     """Return chunk manifest for download."""
+    t_start = time.time()
     with lock:
         entry = metadata["files"].get(filename)
         if not entry:
             return {"status": "error", "msg": "File not found"}
-        return {"status": "ok", "chunks": entry["chunks"]}
+        result = {"status": "ok", "chunks": entry["chunks"]}
+    HDFS_DOWNLOADS_TOTAL.inc()
+    HDFS_RPC_LATENCY.labels(op="download").observe(time.time() - t_start)
+    return result
 
 def handle_delete(filename: str) -> dict:
     with lock:
@@ -394,6 +450,9 @@ def handle_delete(filename: str) -> dict:
     with lock:
         del metadata["files"][filename]
     save_metadata()
+
+    HDFS_DELETES_TOTAL.inc()
+    update_gauges()
 
     if failed:
         return {"status": "partial", "msg": f"Deleted from namespace, {len(failed)} chunk(s) failed on nodes"}
@@ -514,7 +573,13 @@ def client_handler(conn: socket.socket, addr):
 def start_namenode():
     setup_logs()
     load_metadata()
-    
+    update_gauges()  # Initialise metrics from persisted metadata on restart
+
+    # Start Prometheus metrics HTTP server
+    metrics_port = int(os.environ.get("METRICS_PORT", "8080"))
+    start_http_server(metrics_port)
+    log_console(f"📊 Prometheus metrics server started on :{metrics_port}/metrics")
+
     # Start background threads
     threading.Thread(target=heartbeat_listener, daemon=True).start()
     threading.Thread(target=monitor_nodes, daemon=True).start()
