@@ -721,3 +721,12 @@ Replace the old per-file startup with the env var commands from Fix 1.5's verify
 
 # ALL TIER 3 UPDATES DONE 
 
+# IN TIER 4 TESTS AND GITHUB CI IS DONE 
+
+# TIER 4.1 PROMETHEUS METRICS DONE
+# - hdfs_files_total, hdfs_chunks_total, hdfs_blocks_under_replicated
+# - hdfs_datanodes_alive, hdfs_bytes_stored_total
+# - hdfs_upload_requests_total, hdfs_download_requests_total, hdfs_delete_requests_total
+# - hdfs_rpc_latency_seconds{op="upload"}, hdfs_rpc_latency_seconds{op="download"}
+# - Prometheus scrapes :8080/metrics on namenode
+# - Grafana dashboard auto-provisioned at localhost:3000 (admin/hdfsclone)
