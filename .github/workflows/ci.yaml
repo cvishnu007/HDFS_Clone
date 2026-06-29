@@ -2,11 +2,14 @@ name: CI
 
 on:
   push:
-    branches: [master]
+    branches: [master, test_ci]       # ← also run on test_ci branch
   pull_request:
     branches: [master]
 
 jobs:
+  # ─────────────────────────────────────────────────────
+  # JOB 1: Unit Tests  (no Docker needed)
+  # ─────────────────────────────────────────────────────
   unit-tests:
     runs-on: ubuntu-latest
     steps:
@@ -17,11 +20,26 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install pytest pytest-cov
+        run: pip install pytest pytest-cov prometheus_client
 
       - name: Run unit tests
-        run: pytest tests/unit/ -v --cov=namenode --cov-report=term-missing
+        # --cov=namenode points to the namenode/ directory; coverage finds namenode.py inside it
+        # conftest.py in tests/unit/ handles sys.path so imports work
+        run: |
+          pytest tests/unit/ -v \
+            --cov=namenode \
+            --cov-report=term-missing \
+            --cov-report=xml:coverage.xml
 
+      - name: Upload coverage report
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: coverage.xml
+
+  # ─────────────────────────────────────────────────────
+  # JOB 2: Integration Tests  (full Docker cluster)
+  # ─────────────────────────────────────────────────────
   integration-tests:
     runs-on: ubuntu-latest
     needs: unit-tests
@@ -32,30 +50,48 @@ jobs:
         run: |
           docker build -t hdfs-namenode ./namenode
           docker build -t hdfs-datanode ./datanode
-          docker build -t hdfs-client ./client
+          docker build -t hdfs-client   ./client
 
       - name: Start cluster
-        run: docker compose up -d
+        run: docker compose up -d namenode datanode-1 datanode-2 datanode-3
+        # Start only storage services — no need for Prometheus/Grafana in CI
 
-      - name: Wait for cluster to be ready
+      - name: Wait for NameNode RPC to be ready
+        # Poll :5000 directly instead of blindly sleeping
         run: |
-          echo "Waiting for NameNode..."
-          sleep 15
+          echo "Waiting for NameNode to accept connections on :5000..."
+          for i in $(seq 1 30); do
+            if nc -z 127.0.0.1 5000 2>/dev/null; then
+              echo "✅ NameNode is up (attempt $i)"
+              break
+            fi
+            echo "⏳ Attempt $i/30 — not ready yet, sleeping 2s..."
+            sleep 2
+          done
+          # Extra 5s for DataNodes to register their first heartbeat
+          sleep 5
 
       - uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
       - name: Install test dependencies
-        run: pip install pytest
+        run: pip install pytest prometheus_client
 
       - name: Run integration tests
-        run: pytest tests/integration/ -v
+        run: pytest tests/integration/ -v --tb=short
+
+      - name: Show NameNode logs on failure
+        if: failure()
+        run: docker logs hdfs-namenode --tail 50
 
       - name: Tear down
         if: always()
         run: docker compose down -v
 
+  # ─────────────────────────────────────────────────────
+  # JOB 3: Build & Push Images  (master only)
+  # ─────────────────────────────────────────────────────
   build-images:
     runs-on: ubuntu-latest
     needs: integration-tests
@@ -72,20 +108,20 @@ jobs:
       - name: Build and push NameNode
         run: |
           docker build -t ghcr.io/${{ github.repository_owner }}/hdfs-namenode:${{ github.sha }} ./namenode
-          docker build -t ghcr.io/${{ github.repository_owner }}/hdfs-namenode:latest ./namenode
+          docker build -t ghcr.io/${{ github.repository_owner }}/hdfs-namenode:latest             ./namenode
           docker push ghcr.io/${{ github.repository_owner }}/hdfs-namenode:${{ github.sha }}
           docker push ghcr.io/${{ github.repository_owner }}/hdfs-namenode:latest
 
       - name: Build and push DataNode
         run: |
           docker build -t ghcr.io/${{ github.repository_owner }}/hdfs-datanode:${{ github.sha }} ./datanode
-          docker build -t ghcr.io/${{ github.repository_owner }}/hdfs-datanode:latest ./datanode
+          docker build -t ghcr.io/${{ github.repository_owner }}/hdfs-datanode:latest             ./datanode
           docker push ghcr.io/${{ github.repository_owner }}/hdfs-datanode:${{ github.sha }}
           docker push ghcr.io/${{ github.repository_owner }}/hdfs-datanode:latest
 
       - name: Build and push Client
         run: |
           docker build -t ghcr.io/${{ github.repository_owner }}/hdfs-client:${{ github.sha }} ./client
-          docker build -t ghcr.io/${{ github.repository_owner }}/hdfs-client:latest ./client
+          docker build -t ghcr.io/${{ github.repository_owner }}/hdfs-client:latest             ./client
           docker push ghcr.io/${{ github.repository_owner }}/hdfs-client:${{ github.sha }}
           docker push ghcr.io/${{ github.repository_owner }}/hdfs-client:latest
