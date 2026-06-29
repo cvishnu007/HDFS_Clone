@@ -60,29 +60,32 @@ jobs:
     runs-on: ubuntu-latest
     needs: integration-tests
     if: github.ref == 'refs/heads/master'
+    permissions:
+      contents: read
+      packages: write
     steps:
       - uses: actions/checkout@v3
 
       - name: Log in to GitHub Container Registry
-        run: echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+        run: echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.repository_owner }} --password-stdin
 
       - name: Build and push NameNode
         run: |
-          docker build -t ghcr.io/${{ github.actor }}/hdfs-namenode:${{ github.sha }} ./namenode
-          docker build -t ghcr.io/${{ github.actor }}/hdfs-namenode:latest ./namenode
-          docker push ghcr.io/${{ github.actor }}/hdfs-namenode:${{ github.sha }}
-          docker push ghcr.io/${{ github.actor }}/hdfs-namenode:latest
+          docker build -t ghcr.io/${{ github.repository_owner }}/hdfs-namenode:${{ github.sha }} ./namenode
+          docker build -t ghcr.io/${{ github.repository_owner }}/hdfs-namenode:latest ./namenode
+          docker push ghcr.io/${{ github.repository_owner }}/hdfs-namenode:${{ github.sha }}
+          docker push ghcr.io/${{ github.repository_owner }}/hdfs-namenode:latest
 
       - name: Build and push DataNode
         run: |
-          docker build -t ghcr.io/${{ github.actor }}/hdfs-datanode:${{ github.sha }} ./datanode
-          docker build -t ghcr.io/${{ github.actor }}/hdfs-datanode:latest ./datanode
-          docker push ghcr.io/${{ github.actor }}/hdfs-datanode:${{ github.sha }}
-          docker push ghcr.io/${{ github.actor }}/hdfs-datanode:latest
+          docker build -t ghcr.io/${{ github.repository_owner }}/hdfs-datanode:${{ github.sha }} ./datanode
+          docker build -t ghcr.io/${{ github.repository_owner }}/hdfs-datanode:latest ./datanode
+          docker push ghcr.io/${{ github.repository_owner }}/hdfs-datanode:${{ github.sha }}
+          docker push ghcr.io/${{ github.repository_owner }}/hdfs-datanode:latest
 
       - name: Build and push Client
         run: |
-          docker build -t ghcr.io/${{ github.actor }}/hdfs-client:${{ github.sha }} ./client
-          docker build -t ghcr.io/${{ github.actor }}/hdfs-client:latest ./client
-          docker push ghcr.io/${{ github.actor }}/hdfs-client:${{ github.sha }}
-          docker push ghcr.io/${{ github.actor }}/hdfs-client:latest
+          docker build -t ghcr.io/${{ github.repository_owner }}/hdfs-client:${{ github.sha }} ./client
+          docker build -t ghcr.io/${{ github.repository_owner }}/hdfs-client:latest ./client
+          docker push ghcr.io/${{ github.repository_owner }}/hdfs-client:${{ github.sha }}
+          docker push ghcr.io/${{ github.repository_owner }}/hdfs-client:latest
